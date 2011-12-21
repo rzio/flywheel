@@ -1,0 +1,7 @@
+*.ipr
+*.iml
+*.iws
+target
+src/main/resources/*.xml
+
+
