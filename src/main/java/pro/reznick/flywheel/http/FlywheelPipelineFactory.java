@@ -34,7 +34,7 @@ public class FlywheelPipelineFactory implements ChannelPipelineFactory
         ChannelPipeline pipeline = Channels.pipeline();
 
         pipeline.addLast("decoder", new HttpRequestDecoder());
-        pipeline.addLast("aggregator", new HttpChunkAggregator(65536));
+        pipeline.addLast("aggregator", new HttpChunkAggregator(2097152));
         pipeline.addLast("encoder", new HttpResponseEncoder());
         pipeline.addLast("chunkedWriter", new ChunkedWriteHandler());
 

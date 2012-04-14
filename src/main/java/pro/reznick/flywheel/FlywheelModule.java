@@ -80,6 +80,7 @@ public class FlywheelModule extends AbstractModule
         bind(DataDao.class).to(KyotoDataDaoImpl.class).in(Singleton.class);
         bind(CollectionManagementService.class).to(CollectionManagementServiceImpl.class).in(Singleton.class);
         bind(DataService.class).to(DeduplicatingDataService.class).in(Singleton.class);
+//        bind(DataService.class).to(BasicDataService.class).in(Singleton.class);
     }
 
     private void bindNettyHttp()

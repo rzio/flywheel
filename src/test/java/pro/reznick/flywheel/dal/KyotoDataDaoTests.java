@@ -33,7 +33,7 @@ public class KyotoDataDaoTests
     public static void initDb()
     {
         db = new DB();
-        if (!db.open("+", DB.OWRITER | DB.OCREATE))//+
+        if (!db.open("+#zcom=gz", DB.OWRITER | DB.OCREATE))//+
         {
             fail("failed opening DB");
         }

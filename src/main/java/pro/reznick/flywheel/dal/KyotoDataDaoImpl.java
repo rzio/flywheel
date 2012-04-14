@@ -60,7 +60,7 @@ public class KyotoDataDaoImpl implements DataDao
     @Override
     public boolean contains(byte[] key)
     {
-        return db.get(key) == null;
+        return db.get(key) != null;
     }
 
     @Override
@@ -70,15 +70,15 @@ public class KyotoDataDaoImpl implements DataDao
     }
 
     @Override
-    public void incrementRefCount(byte[] hash)
+    public long incrementRefCount(byte[] hash)
     {
-        db.increment(calculateHashKey(refCountPrefix, hash), 1, 0);
+        return db.increment(calculateHashKey(refCountPrefix, hash), 1, 0);
     }
 
     @Override
-    public void decrementRefCount(byte[] hash)
+    public long decrementRefCount(byte[] hash)
     {
-        db.increment(calculateHashKey(refCountPrefix, hash), -1, 0);
+        return db.increment(calculateHashKey(refCountPrefix, hash), -1, 0);
     }
 
     @Override

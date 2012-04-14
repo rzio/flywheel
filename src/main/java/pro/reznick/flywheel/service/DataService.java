@@ -13,11 +13,11 @@ public interface DataService
 {
     OperationStatus put(Key key, Entity entity) throws OperationFailedException;
 
-    Entity get(Key key);
+    Entity get(Key key) throws OperationFailedException;
 
-    OperationStatus delete(Key key);
+    OperationStatus delete(Key key) throws OperationFailedException;
 
     boolean containsKey(Key key);
 
-    void duplicate(Key sourceKey, Key targetKey);
+    void duplicate(Key sourceKey, Key targetKey) throws OperationFailedException;
 }

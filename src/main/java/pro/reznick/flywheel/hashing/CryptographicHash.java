@@ -1,5 +1,6 @@
 package pro.reznick.flywheel.hashing;
 
+import java.nio.ByteBuffer;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
@@ -21,13 +22,19 @@ public class CryptographicHash implements HashingStrategy
 
     public byte[] hash(byte[] data)
     {
+        return hash(ByteBuffer.wrap(data));
+    }
+
+    @Override
+    public byte[] hash(ByteBuffer data)
+    {
         MessageDigest md;
         byte[] hash = new byte[outputSize];
 
         try
         {
             md = MessageDigest.getInstance(algorithm);
-            md.update(data, 0, data.length);
+            md.update(data);
             hash = md.digest();
         }
         catch (NoSuchAlgorithmException e)
@@ -37,15 +44,16 @@ public class CryptographicHash implements HashingStrategy
         return hash;
     }
 
-    public String getStrategyName(){
+
+    public String getStrategyName()
+    {
         return algorithm;
     }
 
 
-
     public static HashingStrategy MD5 = new CryptographicHash("MD5", 16);
-    public static HashingStrategy SHA1 = new CryptographicHash("SHA-1",20);
-    public static HashingStrategy SHA256 = new CryptographicHash("SHA-256",32);
-    public static HashingStrategy SHA512 = new CryptographicHash("SHA-512",64);
+    public static HashingStrategy SHA1 = new CryptographicHash("SHA-1", 20);
+    public static HashingStrategy SHA256 = new CryptographicHash("SHA-256", 32);
+    public static HashingStrategy SHA512 = new CryptographicHash("SHA-512", 64);
 }
 

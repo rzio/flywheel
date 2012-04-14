@@ -5,18 +5,17 @@ import pro.reznick.flywheel.configuration.CollectionConfiguration;
 import pro.reznick.flywheel.configuration.FailedSavingConfigurationException;
 import pro.reznick.flywheel.configuration.InstanceConfiguration;
 import pro.reznick.flywheel.dal.DataDao;
-import pro.reznick.flywheel.exceptions.CollectionAlreadyExistsException;
 import pro.reznick.flywheel.domain.Entity;
 import pro.reznick.flywheel.domain.Key;
+import pro.reznick.flywheel.exceptions.CollectionAlreadyExistsException;
 import pro.reznick.flywheel.exceptions.OperationFailedException;
-import pro.reznick.flywheel.hashing.HashingStrategy;
 
 /**
  * @author alex
- * @since 11/24/11 3:32 PM
+ * @since 1/21/12 2:54 PM
  */
 
-public class DeduplicatingDataService implements DataService
+public class BasicDataService implements DataService
 {
     InstanceConfiguration instance;
     CollectionManagementService mgmtSvc;
@@ -25,18 +24,17 @@ public class DeduplicatingDataService implements DataService
     private int dedups = 0;
     private int putRequests = 0;
 
-
     @Inject
-    public DeduplicatingDataService(InstanceConfiguration config, CollectionManagementService mgmtSvc, DataDao dao)
+    public BasicDataService(InstanceConfiguration config, CollectionManagementService mgmtSvc, DataDao dao)
     {
         this.instance = config;
         this.mgmtSvc = mgmtSvc;
         this.dao = dao;
     }
 
+    @Override
     public OperationStatus put(Key key, Entity entity) throws OperationFailedException
     {
-
         putRequests++;
         CollectionConfiguration config = instance.getCollectionConfig(key.getCollectionName());
         if (config == null)
@@ -53,69 +51,46 @@ public class DeduplicatingDataService implements DataService
             {
                 throw new OperationFailedException("Creation of new collection failed", e);
             }
-
-            config = instance.getCollectionConfig(key.getCollectionName());
         }
-        HashingStrategy strategy = config.getHashingStrategy();
 
+        boolean replaced = false;
+        final byte[] key_bytes = key.getStorageKey().array();
 
-        byte[] hash = strategy.hash(entity.getData());
-        if (!dao.containsEntity(hash))
-        {
-            dao.incrementRefCount(hash);
-            System.out.println(String.format("Total dedups: %s/%s", ++dedups, putRequests));
-        }
-        else
-        {
-            dao.storeEntity(hash, entity);
-        }
-        byte[] k = key.getStorageKey().array();
-        byte[] oldHash = dao.get(k);
+        if (dao.contains(key_bytes))
+            replaced = true;
 
-        OperationStatus ret = OperationStatus.CREATED_ENTITY;
-        if (oldHash != null)
-        {
-            dao.decrementRefCount(oldHash);
-            ret = OperationStatus.REPLACED_ENTITY;
-        }
-        dao.store(k, hash);
-        return ret;
+        dao.store(key.getStorageKey().array(), entity.getData());
+        return replaced ? OperationStatus.REPLACED_ENTITY : OperationStatus.CREATED_ENTITY;
+
     }
 
-
+    @Override
     public Entity get(Key key)
     {
-
-        byte[] hash = dao.get(key.getStorageKey().array());
-        if (hash == null)
-            return null;
-        return dao.getEntity(hash);
+        return new Entity(dao.get(key.getStorageKey().array()), "aplication/octet-stream");
     }
 
+    @Override
     public OperationStatus delete(Key key)
     {
-        byte[] k = key.getStorageKey().array();
-        byte[] hash = dao.get(k);
-        if (hash != null)
-        {
-            dao.decrementRefCount(hash);
-            dao.delete(k);
-            return OperationStatus.OK;
-        }
-        return OperationStatus.FAILED;
+        dao.delete(key.getStorageKey().array());
+        return OperationStatus.OK;
     }
 
+    @Override
     public boolean containsKey(Key key)
     {
         return dao.contains(key.getStorageKey().array());
     }
 
+    @Override
     public void duplicate(Key sourceKey, Key targetKey)
     {
 
-        byte[] hash = dao.get(sourceKey.getStorageKey().array());
-        dao.incrementRefCount(hash);
-        dao.store(targetKey.getStorageKey().array(), hash);
+        byte[] value = dao.get(sourceKey.getStorageKey().array());
+        dao.store(targetKey.getStorageKey().array(), value);
 
     }
+
+
 }

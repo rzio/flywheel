@@ -23,11 +23,15 @@ public interface DataDao
     byte[] get(byte[] key);
 
 
+    // TODO - all those functions should not be in the DAO
+    // The ref count management should be implemented in the DAO transparently
+    // Entity functions should be implemented in the service
+
     public void storeEntity(byte[] hash, Entity entity);
     void deleteEntity(byte[] hash);
     boolean containsEntity(byte[] hash);
-    void incrementRefCount(byte[] hash);
-    void decrementRefCount(byte[] hash);
+    long incrementRefCount(byte[] hash);
+    long decrementRefCount(byte[] hash);
     long getRefCount(byte[] hash);
     Entity getEntity(byte[] hash);
 

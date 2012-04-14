@@ -30,7 +30,9 @@ public class DBProvider implements Provider<DB>
 
 
         // open the database
-        if (!db.open(resolveDBFileName(path,dbType), DB.OWRITER | DB.OCREATE))
+        String filename = resolveDBFileName(path,dbType)+"#zcomp=zlib";
+        System.out.println(String.format("opening %s\n",filename));
+        if (!db.open(filename, DB.OWRITER | DB.OCREATE))
         {
             throw db.error();
         }

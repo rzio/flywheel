@@ -149,49 +149,70 @@ public class FlywheelHandler extends SimpleChannelUpstreamHandler
 
     private void parseGetRequest(Key k, HttpRequest request, String path, ChannelHandlerContext ctx, MessageEvent e)
     {
-        Entity entity = service.get(k);
-        if (entity == null)
+        try
         {
-            error(ctx, request.getProtocolVersion(), NOT_FOUND);
-            return;
-        }
+            Entity entity = service.get(k);
+            if (entity == null)
+            {
+                error(ctx, request.getProtocolVersion(), NOT_FOUND);
+                return;
+            }
 
-        String accept = request.getHeader(ACCEPT);
-        if (!MediaTypeMatcher.matchAcceptHeader(entity.getMediaType(), accept))
-        {
-            error(ctx, request.getProtocolVersion(), NOT_ACCEPTABLE);
-            return;
+            String accept = request.getHeader(ACCEPT);
+            if (!MediaTypeMatcher.matchAcceptHeader(entity.getMediaType(), accept))
+            {
+                error(ctx, request.getProtocolVersion(), NOT_ACCEPTABLE);
+                return;
+            }
+            writeEntity(request, ctx, entity);
         }
-        writeEntity(request, ctx, entity);
+        catch (OperationFailedException e1)
+        {
+            error(ctx, request.getProtocolVersion(), INTERNAL_SERVER_ERROR);
+        }
     }
 
 
     private void parseHeadRequest(Key k, HttpRequest request, String path, ChannelHandlerContext ctx, MessageEvent e)
     {
-        Entity entity = service.get(k);
-        if (entity == null)
+        try
         {
-            error(ctx, request.getProtocolVersion(), NOT_FOUND);
-            return;
-        }
+            Entity entity = service.get(k);
+            if (entity == null)
+            {
+                error(ctx, request.getProtocolVersion(), NOT_FOUND);
+                return;
+            }
 
-        String accept = request.getHeader(ACCEPT);
-        if (!MediaTypeMatcher.matchAcceptHeader(entity.getMediaType(), accept))
-        {
-            error(ctx, request.getProtocolVersion(), NOT_ACCEPTABLE);
-            return;
+            String accept = request.getHeader(ACCEPT);
+            if (!MediaTypeMatcher.matchAcceptHeader(entity.getMediaType(), accept))
+            {
+                error(ctx, request.getProtocolVersion(), NOT_ACCEPTABLE);
+                return;
+            }
+            respond(request, ctx, OK);
         }
-        respond(request, ctx, OK);
+        catch (OperationFailedException e1)
+        {
+            error(ctx, request.getProtocolVersion(), INTERNAL_SERVER_ERROR);
+        }
 
     }
 
     private void parseDeleteRequest(Key k, HttpRequest request, String path, ChannelHandlerContext ctx, MessageEvent e)
     {
-        OperationStatus st = service.delete(k);
-        if (st == OperationStatus.OK)
-            respond(request, ctx, NO_CONTENT);
-        if (st == OperationStatus.FAILED)
-            error(ctx,request.getProtocolVersion(),NOT_FOUND);
+        try
+        {
+            OperationStatus st = service.delete(k);
+            if (st == OperationStatus.OK)
+                respond(request, ctx, NO_CONTENT);
+            if (st == OperationStatus.FAILED)
+                error(ctx, request.getProtocolVersion(), NOT_FOUND);
+        }
+        catch (OperationFailedException e1)
+        {
+            error(ctx, request.getProtocolVersion(), INTERNAL_SERVER_ERROR);
+        }
     }
 
     private void parsePostRequest(Key k, HttpRequest request, String path, ChannelHandlerContext ctx, MessageEvent e)

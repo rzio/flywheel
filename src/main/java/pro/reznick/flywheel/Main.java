@@ -28,6 +28,7 @@ public class Main
 
         Injector injector = Guice.createInjector(new FlywheelModule(config));
         final FlywheelServer server = injector.getInstance(FlywheelServer.class);
+//        final DB db = injector.getInstance(DB.class);
         server.start();
 
         Runtime.getRuntime().addShutdownHook(new Thread(new Runnable()
@@ -35,11 +36,13 @@ public class Main
             @Override
             public void run()
             {
+                server.stop();
+//                db.close();
                 synchronized (stopEvent)
                 {
                     stopEvent.notifyAll();
                 }
-                server.stop();
+
             }
         }));
 

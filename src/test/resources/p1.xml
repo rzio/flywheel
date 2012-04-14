@@ -1,0 +1,1115 @@
+<document rotation="1" scaleX="1" express="true" scaleY="1" name="" icon_src="" flipVert="true" maxHeight="-1" maxWidth="-1" selected="false" category1="" blendMode="NORMAL" minHeight="-1" autoSize="trueSize" minWidth="-1" locked="true" category3="" alpha="1" category2="" origWidth="1020" width="1020" groupNum="0" origHeight="1526" height="1290" componentTypeRole="none" isInteractive="false" premiumMask="0" imageAspectRatio="-1" mask="none" x="0" y="0" flipHorz="true" styleName="" title="Master Pages" containerAlpha="1" flanger="" link="" asciiChars="אבגד" pgid="9GOjxKB4C1p60zgwsJ3nEg--a" opCounters="componentEditTEXT=44|componentDragToStage=9|">
+  <layout>
+    <instance componentType="basicShape" width="1019" flipHorz="false" y="0" flipVert="false" height="1292" scaleY="1" mask="none" blendMode="NORMAL" skewX="0" skewY="0" x="0" alpha="1" origWidth="1019" containerAlpha="1" rotation="0" locked="false" isBackground="true" origHeight="1524" scaleX="1" groupNum="0" title="White" icon_src="904114dfe46bf8b419212d0c114232ed.wix_ico_mp" instanceID="basicShape0" componentTypeRole="none" selected="false" category1="" category2="" category3="" maxHeight="-1" minWidth="-1" minHeight="-1" maxWidth="-1" childIdx="0" mainStacker="false" premiumMask="0" isInteractive="false" link="" imageAspectRatio="-1" taskComponentID="" styleName="" express="true" name="">
+      <params>
+        <paramNode paramName="shape" src="4de2b18ac97b6d942c3077f1ddc7e9df.wix_mp" autoSize="true" shapeTitle="Select shape" aspectRatio="stretch"/>
+        <paramNode paramName="stroke0" id="stroke0" color="#26000211" strokeWidth="0.25"/>
+        <paramNode paramName="fill0" id="fill0" color="#0xffffffff" cx="-0.0141935483870967" cy="-0.4129032258064516" sizeFactorY="1" fillType="solid" rotation="-100.12467165539783" focalPointRatio="0.3809320353569971" spreadMethod="pad" sizeFactorX="1" interpolationMethod="linearRGB">
+          <stop style="stop-color:#ff000000" offset="0"/>
+          <stop style="stop-color:#fffbffff" offset="1"/>
+          <stop style="stop-color:#fffefffa" offset="1"/>
+        </paramNode>
+      </params>
+      <behaviours>
+        <behaviour modifierType="setTemplatesGalleryParams" modifierID="setTemplatesGalleryParams0" title="setTemplatesGallParams" icon_src="daa0760cba142c8c821bd146a29942df.wix_ico_mp">
+          <paramNode paramName="galleryParams" method="setTemplatesGalleryParams" scopeID="TemplatesGallery" isComponentMethod="true">
+            <paramObj templateSortType="sortByDate" tagsForRanking="" tagsFilter=""/>
+          </paramNode>
+          <paramNode paramName="params"/>
+        </behaviour>
+      </behaviours>
+    </instance>
+    <instance width="1024" height="1280" origWidth="60" origHeight="60" componentType="basicShape" title="Square" icon_src="75d1ea92fef7d157a5edaeef87b8d8c80e61a18d.wix_ico_mp" componentTypeRole="none" category1="basic shape" category2="" category3="basic shape" alpha="1" instanceID="basicShape2" mask="none" scaleX="1" flipVert="false" blendMode="NORMAL" scaleY="1" y="0" selected="false" skewX="0" groupNum="0" skewY="0" containerAlpha="1" x="0" rotation="0" flipHorz="false" locked="false" maxHeight="-1" minWidth="-1" minHeight="-1" maxWidth="-1" childIdx="1" mainStacker="false" premiumMask="0" isInteractive="false" link="" imageAspectRatio="-1" taskComponentID="" styleName="" express="true" name="">
+      <params>
+        <paramNode paramName="shape" src="75d1ea92fef7d157a5edaeef87b8d8c80e61a18d.wix_mp" autoSize="true" shapeTitle="Select shape" aspectRatio="stretch" title="Square"/>
+        <paramNode paramName="stroke0" id="stroke0" color="#48ffffff" strokeWidth="0"/>
+        <paramNode paramName="fill0" id="fill0" color="#ffffffff" cx="1" absolute="false" cy="-0.917225950782998" sizeFactorY="5" fillType="linearGradient" rotation="-180" spreadMethod="pad" sizeFactorX="5" interpolationMethod="rgb">
+          <stop style="stop-color:#ffe2e2e2" offset="0"/>
+          <stop style="stop-color:#ffffffff" offset="0.6470588235294118"/>
+        </paramNode>
+      </params>
+    </instance>
+    <instance width="1000" height="108" origWidth="60" origHeight="60" componentType="basicShape" title="Square" icon_src="75d1ea92fef7d157a5edaeef87b8d8c80e61a18d.wix_ico_mp" componentTypeRole="none" category1="basic shape" category2="" category3="basic shape" alpha="1" instanceID="basicShape22" childIdx="2" maxHeight="-1" mask="" containerAlpha="1" premiumMask="0" scaleX="1" link="" blendMode="" scaleY="1" isInteractive="false" y="52" flipVert="false" flipHorz="false" x="0" minWidth="-1" minHeight="-1" rotation="0" mainStacker="false" locked="false" groupNum="0" maxWidth="-1" selected="false" imageAspectRatio="-1" taskComponentID="" styleName="" express="true" name="">
+      <params>
+        <paramNode paramName="shape" src="75d1ea92fef7d157a5edaeef87b8d8c80e61a18d.wix_mp" autoSize="true" shapeTitle="Select shape" aspectRatio="stretch" title="Square"/>
+        <paramNode paramName="stroke0" id="stroke0" color="#48ffffff" strokeWidth="0"/>
+        <paramNode paramName="fill0" id="fill0" color="0xffffffff" absolute="false" fillType="solid"/>
+      </params>
+    </instance>
+    <instance width="1024" height="181" origWidth="60" origHeight="60" componentType="basicShape" title="g" icon_src="2926dd63d4477fb2b3c29159cb48c867.wix_ico_mp" componentTypeRole="none" category1="basic shape" category2="" category3="basic shape" alpha="1" instanceID="basicShape40" x="0" y="1113" rotation="0" groupNum="0" locked="false" selected="false" containerAlpha="1" scaleX="1" flipHorz="false" mask="" blendMode="" scaleY="1" flipVert="false" maxHeight="-1" minWidth="-1" minHeight="-1" maxWidth="-1" childIdx="3" mainStacker="false" premiumMask="0" isInteractive="false" link="" imageAspectRatio="-1" taskComponentID="" styleName="" express="true" name="">
+      <params>
+        <paramNode paramName="shape" src="75d1ea92fef7d157a5edaeef87b8d8c80e61a18d.wix_mp" autoSize="true" shapeTitle="Select shape" aspectRatio="stretch" title="Square"/>
+        <paramNode paramName="stroke0" id="stroke0" color="#48ffffff" strokeWidth="0"/>
+        <paramNode paramName="fill0" id="fill0" color="#0xffe1e1e1" fillType="solid"/>
+      </params>
+    </instance>
+    <instance componentType="titleText" origHeight="71" x="29" skewY="0" y="189" selected="false" containerAlpha="1" alpha="1" scaleX="1" flipHorz="false" scaleY="1" width="379" flipVert="false" mask="none" blendMode="NORMAL" rotation="0" height="23" skewX="0" origWidth="398" groupNum="0" instanceID="titleText24" title="Arial" icon_src="b020c59af985cc9e267030f1bd553fdc.wix_ico_mp" componentTypeRole="none" childIdx="4" isInteractive="false" category2="" category1="" category3="" imageAspectRatio="-1" link="" minWidth="-1" minHeight="-1" maxWidth="-1" maxHeight="-1" premiumMask="0" locked="false" taskComponentID="" styleName="" express="true" name="">
+      <params>
+        <paramNode paramName="text" size="42" color="0x000000" drawFrame="false" txtScaleY="0.67449857036139" thickness="0" width="396.3882587297869" multiLine="true" sharpness="0" bold="false" txtScaleX="0.6613362514925744" embed="true" editable="false" height="130.70000000000005" fieldType="title" font="Cenobyte" italics="false" autoSize="left" simpleText="" selectable="true"><![CDATA[<P ALIGN="LEFT"><FONT FACE="Arial" SIZE="27" COLOR="#000000" LETTERSPACING="-0.3" KERNING="1">Выберите шаблон и нажмите &quot;Редактировать&quot;</FONT></P>]]></paramNode>
+      </params>
+    </instance>
+    <instance componentType="paraText" x="51" flipHorz="false" y="111" groupNum="0" origWidth="433" alpha="1" scaleX="1" skewX="0" scaleY="1" width="433" skewY="0" mask="none" blendMode="NORMAL" rotation="0" height="22" containerAlpha="1" selected="false" origHeight="22" flipVert="false" instanceID="paraText8" title="text" icon_src="080bf4ed64e4f01ede590089f2881447.wix_ico_mp" componentTypeRole="none" category1="" locked="false" category2="" category3="" maxHeight="-1" minWidth="-1" minHeight="-1" maxWidth="-1" childIdx="5" mainStacker="false" premiumMask="0" isInteractive="false" link="" imageAspectRatio="-1" taskComponentID="" styleName="" express="true" name="">
+      <params>
+        <paramNode paramName="text" size="32" color="0x000000" sharpness="-117" wrap="true" thickness="61" width="341.65000000000003" multiLine="true" drawFrame="false" editable="false" embed="true" bold="false" height="57.75" fieldType="paragraph" font="Comic Sans Ms" italics="false" autoSize="left" simpleText="" selectable="true"><![CDATA[<TEXTFORMAT LEADING="4"><P ALIGN="LEFT"><FONT FACE="Arial" SIZE="12" COLOR="#666666" LETTERSPACING="0.1" KERNING="0">Wix.com отлично подходит всем  от новичков до профессионалов.</FONT></P></TEXTFORMAT>]]></paramNode>
+      </params>
+    </instance>
+    <instance componentType="titleText" origHeight="44" x="46" skewY="0" y="70" selected="false" containerAlpha="1" alpha="1" scaleX="1" flipHorz="false" scaleY="1" width="387" flipVert="false" mask="none" blendMode="NORMAL" rotation="0" height="44" skewX="0" origWidth="308" groupNum="0" instanceID="titleText7" title="Arial" icon_src="b020c59af985cc9e267030f1bd553fdc.wix_ico_mp" componentTypeRole="none" childIdx="6" maxWidth="-1" maxHeight="-1" locked="false" minWidth="-1" mainStacker="false" minHeight="-1" premiumMask="0" category1="" category2="" category3="" isInteractive="false" link="" imageAspectRatio="-1" taskComponentID="" styleName="" express="true" name="">
+      <params>
+        <paramNode paramName="text" size="42" color="0x000000" drawFrame="false" txtScaleY="1.007556675062972" thickness="0" width="396.3882587297869" multiLine="true" sharpness="0" bold="false" txtScaleX="1.007556675062972" embed="true" editable="false" height="130.70000000000005" fieldType="title" font="Cenobyte" italics="false" autoSize="left" simpleText="" selectable="true"><![CDATA[<P ALIGN="LEFT"><FONT FACE="Arial" SIZE="35" COLOR="#0099FF" LETTERSPACING="-0.6" KERNING="0">Создайте свой веб-сайт</FONT></P>]]></paramNode>
+      </params>
+    </instance>
+    <instance width="632" height="1" origWidth="1024" origHeight="6" componentType="picture" title="Disappeared Line" icon_src="4251d3aecc3b2e156df2005a96d0e903.wix_ico_mp" componentTypeRole="none" category1="Line" category2="" category3="parts" alpha="1" instanceID="picture24" childIdx="7" mask="" rotation="-90" selected="false" x="225" maxWidth="-1" y="873" blendMode="" locked="false" maxHeight="-1" containerAlpha="1" flipHorz="false" flipVert="false" mainStacker="false" minWidth="-1" minHeight="-1" scaleX="1" premiumMask="0" scaleY="1" groupNum="0" isInteractive="false" link="" imageAspectRatio="-1" taskComponentID="" styleName="" express="true" name="">
+      <params>
+        <paramNode paramName="pic" src="262e8be51e35ce2da1805ba2d2e2180f.wix_mp" cropRotation="0" aspectRatio="stretch" cropX="0" cropHeight="3.086" providerName="" cropY="-1.043" cropWidth="632" picTitle="Disappeared Line" scopeID="picture24"/>
+      </params>
+    </instance>
+    <instance componentType="titleText" origHeight="21" x="26" skewY="0" y="697" selected="false" containerAlpha="1" alpha="1" scaleX="1" flipHorz="false" scaleY="1" width="85" flipVert="false" mask="none" blendMode="NORMAL" rotation="0" height="21" skewX="0" origWidth="71" groupNum="0" instanceID="titleText17" title="Arial" icon_src="b020c59af985cc9e267030f1bd553fdc.wix_ico_mp" componentTypeRole="none" childIdx="8" minHeight="-1" minWidth="-1" premiumMask="0" category1="" mainStacker="false" category3="" locked="false" category2="" maxWidth="-1" maxHeight="-1" isInteractive="false" link="" imageAspectRatio="-1" taskComponentID="" styleName="" express="true" name="">
+      <params>
+        <paramNode paramName="text" size="42" color="0x000000" drawFrame="false" txtScaleY="1.014805284236087" thickness="0" width="396.3882587297869" multiLine="true" sharpness="0" bold="false" txtScaleX="1.0186287264372904" embed="true" editable="false" height="130.70000000000005" fieldType="title" font="Cenobyte" italics="false" autoSize="left" simpleText="" selectable="true"><![CDATA[<P ALIGN="LEFT"><FONT FACE="Arial" SIZE="15" COLOR="#666666" LETTERSPACING="0" KERNING="0"><B>Продукты</B></FONT></P>]]></paramNode>
+      </params>
+    </instance>
+    <instance width="186" height="20" origWidth="200" origHeight="50" componentType="CtrlTemplatesGall" title="ctrlTemplatesGall" icon_src="741d4b0953aaf94eef7177c2d4449a1e.wix_ico_mp" componentTypeRole="none" category1="Internal" category2="" category3="" maxWidth="1000" maxHeight="1000" minWidth="50" minHeight="10" alpha="1" instanceID="CtrlTemplatesGall2" childIdx="9" blendMode="" locked="false" premiumMask="0" containerAlpha="1" x="515" flipHorz="false" y="852" flipVert="false" mainStacker="false" groupNum="0" scaleY="1" scaleX="1" selected="false" mask="" rotation="0" isInteractive="false" link="" imageAspectRatio="-1" taskComponentID="" styleName="" express="true" name="">
+      <params>
+        <paramNode paramName="ctrlParams" marginBetweenNumPageButtons="5" connectToInstance="TemplatesGallery0" numPageBtnsLength="5" NOT_USED=""/>
+        <paramNode paramName="skinSource" src="a9599e1c37528843dee409175edc6ba0.skinz" title="ctrlTemplatesGall"/>
+        <paramNode paramName="colors">
+          <fill sizeFactorY="1" focalPointRatio="0" spreadMethod="reflect" cx="0" cy="0" id="fill0" fillType="empty" rotation="0" color="#ff000000" groupName="Player color" sizeFactorX="1" interpolationMethod="rgb"/>
+        </paramNode>
+      </params>
+    </instance>
+    <instance componentType="titleText" origHeight="21" x="27" skewY="0" y="278" selected="false" containerAlpha="1" alpha="1" scaleX="1" flipHorz="false" scaleY="1" width="82" flipVert="false" mask="none" blendMode="NORMAL" rotation="0" height="21" skewX="0" origWidth="83" groupNum="0" instanceID="titleText18" title="Arial" icon_src="b020c59af985cc9e267030f1bd553fdc.wix_ico_mp" componentTypeRole="none" childIdx="10" minHeight="-1" minWidth="-1" premiumMask="0" category1="" mainStacker="false" category3="" locked="false" category2="" maxWidth="-1" maxHeight="-1" isInteractive="false" link="" imageAspectRatio="-1" taskComponentID="" styleName="" express="true" name="">
+      <params>
+        <paramNode paramName="text" size="42" color="0x000000" drawFrame="false" txtScaleY="1.014805284236087" thickness="0" width="396.3882587297869" multiLine="true" sharpness="0" bold="false" txtScaleX="1.0186287264372904" embed="true" editable="false" height="130.70000000000005" fieldType="title" font="Cenobyte" italics="false" autoSize="left" simpleText="" selectable="true"><![CDATA[<P ALIGN="LEFT"><FONT FACE="Arial" SIZE="15" COLOR="#666666" LETTERSPACING="0" KERNING="0"><B>Категории</B></FONT></P>]]></paramNode>
+      </params>
+    </instance>
+    <instance width="149" height="21" origWidth="135" origHeight="40" componentType="TextButton3G" title="Text Only" icon_src="09333db14c98671e6d31bf739e7c4561.wix_ico_mp" componentTypeRole="none" category1="Button3GSkin" category2="" category3="" alpha="1" instanceID="TextButton3G0" childIdx="11" scaleX="1" containerAlpha="1" scaleY="1" selected="false" flipHorz="false" mask="" minHeight="18.5" flipVert="false" isInteractive="false" premiumMask="0" x="16" mainStacker="false" y="247" blendMode="" rotation="0" locked="false" groupNum="0" maxWidth="-1" minWidth="118.95" maxHeight="-1" link="" imageAspectRatio="-1" taskComponentID="" styleName="" express="true" name="">
+      <params>
+        <paramNode paramName="textFormats">
+          <textFormat bold="false" color="4278229503" font="arial" italic="false" size="13" align="left" formatName="up"/>
+          <textFormat bold="false" color="4278190080" font="arial" italic="false" size="13" align="left" formatName="over"/>
+          <textFormat bold="false" color="4278190080" font="arial" italic="false" size="13" align="left" formatName="down"/>
+        </paramNode>
+        <paramNode paramName="skinSource" src="9ca147d3a002c8c93abfc010e5147b88.skinz" skinTitle="" mediaTitle="Text Only" title="TextBtn_3G" null="535439a419a3b1f264fe484955a82279.wix_ico_mp"/>
+        <paramNode paramName="texts" title="Пустые шаблоны"/>
+        <paramNode paramName="buttonParams" height="0" selected="false" iconSize="11" picTitle="Plus" width="0" showIcon="false" iconTextMargin="2" selectable="false" contentMargin="10" align="2" iconSrc="8f2c91ac24f441df20080d4e132db1ab7c28e533.wix_mp"/>
+        <paramNode paramName="contentParams"/>
+        <paramNode paramName="colors"/>
+      </params>
+      <behaviours>
+        <behaviour modifierType="setTemplatesGalleryParams" modifierID="setTemplatesGalleryParams0" title="setTemplatesGallParams" icon_src="daa0760cba142c8c821bd146a29942df.wix_ico_mp">
+          <paramNode paramName="galleryParams" method="setTemplatesGalleryParams" isComponentMethod="true" NOT_USED="" scopeID="TemplatesGallery0">
+            <paramObj templateSortType="sortByRank" tagsForRanking="cat_Blank" tagsFilter="cat_Blank"/>
+          </paramNode>
+          <paramNode paramName="params"/>
+        </behaviour>
+      </behaviours>
+    </instance>
+    <instance width="145" height="21" origWidth="135" origHeight="40" componentType="TextButton3G" title="Text Only" icon_src="09333db14c98671e6d31bf739e7c4561.wix_ico_mp" componentTypeRole="none" category1="Button3GSkin" category2="" category3="" alpha="1" instanceID="TextButton3G2" childIdx="12" scaleX="1" containerAlpha="1" scaleY="1" selected="false" flipHorz="false" mask="" minHeight="18.5" flipVert="false" isInteractive="false" premiumMask="0" x="16" mainStacker="false" y="304" blendMode="" rotation="0" locked="false" groupNum="0" maxWidth="-1" minWidth="36.4" maxHeight="-1" link="" imageAspectRatio="-1" taskComponentID="" styleName="" express="true" name="">
+      <params>
+        <paramNode paramName="textFormats">
+          <textFormat bold="false" color="4278229503" font="arial" italic="false" size="13" align="left" formatName="up"/>
+          <textFormat bold="false" color="4278190080" font="arial" italic="false" size="13" align="left" formatName="over"/>
+          <textFormat bold="false" color="4278190080" font="arial" italic="false" size="13" align="left" formatName="down"/>
+        </paramNode>
+        <paramNode paramName="skinSource" src="9ca147d3a002c8c93abfc010e5147b88.skinz" skinTitle="" mediaTitle="Text Only" title="TextBtn_3G" null="535439a419a3b1f264fe484955a82279.wix_ico_mp"/>
+        <paramNode paramName="texts" title="Все"/>
+        <paramNode paramName="buttonParams" height="0" selected="false" iconSize="11" picTitle="Plus" width="0" showIcon="false" iconTextMargin="2" selectable="false" contentMargin="10" align="2" iconSrc="8f2c91ac24f441df20080d4e132db1ab7c28e533.wix_mp"/>
+        <paramNode paramName="contentParams"/>
+        <paramNode paramName="colors"/>
+      </params>
+      <behaviours>
+        <behaviour modifierType="setTemplatesGalleryParams" modifierID="setTemplatesGalleryParams0" title="setTemplatesGallParams" icon_src="daa0760cba142c8c821bd146a29942df.wix_ico_mp">
+          <paramNode paramName="galleryParams" method="setTemplatesGalleryParams" isComponentMethod="true" NOT_USED="" scopeID="TemplatesGallery0" dataItem="">
+            <paramObj templateSortType="sortByRank" tagsForRanking="cat_all" tagsFilter="cat_all,cat_Promotions"/>
+          </paramNode>
+          <paramNode paramName="params"/>
+        </behaviour>
+      </behaviours>
+    </instance>
+    <instance width="145" height="21" origWidth="135" origHeight="40" componentType="TextButton3G" title="Text Only" icon_src="09333db14c98671e6d31bf739e7c4561.wix_ico_mp" componentTypeRole="none" category1="Button3GSkin" category2="" category3="" alpha="1" instanceID="TextButton3G3" childIdx="13" scaleX="1" containerAlpha="1" scaleY="1" selected="false" flipHorz="false" mask="" minHeight="18.5" flipVert="false" isInteractive="false" premiumMask="0" x="16" mainStacker="false" y="329" blendMode="" rotation="0" locked="false" groupNum="0" maxWidth="-1" minWidth="84.8" maxHeight="-1" link="" imageAspectRatio="-1" taskComponentID="" styleName="" express="true" name="">
+      <params>
+        <paramNode paramName="textFormats">
+          <textFormat bold="false" color="4278229503" font="arial" italic="false" size="13" align="left" formatName="up"/>
+          <textFormat bold="false" color="4278190080" font="arial" italic="false" size="13" align="left" formatName="over"/>
+          <textFormat bold="false" color="4278190080" font="arial" italic="false" size="13" align="left" formatName="down"/>
+        </paramNode>
+        <paramNode paramName="skinSource" src="9ca147d3a002c8c93abfc010e5147b88.skinz" skinTitle="" mediaTitle="Text Only" title="TextBtn_3G" null="535439a419a3b1f264fe484955a82279.wix_ico_mp"/>
+        <paramNode paramName="texts" title="eCommerce"/>
+        <paramNode paramName="buttonParams" height="0" selected="false" iconSize="11" picTitle="Plus" width="0" showIcon="false" iconTextMargin="2" selectable="false" contentMargin="10" align="2" iconSrc="8f2c91ac24f441df20080d4e132db1ab7c28e533.wix_mp"/>
+        <paramNode paramName="contentParams"/>
+        <paramNode paramName="colors"/>
+      </params>
+      <behaviours>
+        <behaviour modifierType="setTemplatesGalleryParams" modifierID="setTemplatesGalleryParams0" title="setTemplatesGallParams" icon_src="daa0760cba142c8c821bd146a29942df.wix_ico_mp">
+          <paramNode paramName="galleryParams" method="setTemplatesGalleryParams" isComponentMethod="true" scopeID="TemplatesGallery0" dataItem="">
+            <paramObj templateSortType="sortByRank" tagsForRanking="cat_eCommerce" tagsFilter="cat_eCommerce,cat_Promotions"/>
+          </paramNode>
+          <paramNode paramName="params"/>
+        </behaviour>
+      </behaviours>
+    </instance>
+    <instance width="145" height="21" origWidth="135" origHeight="40" componentType="TextButton3G" title="Text Only" icon_src="09333db14c98671e6d31bf739e7c4561.wix_ico_mp" componentTypeRole="none" category1="Button3GSkin" category2="" category3="" alpha="1" instanceID="TextButton3G4" childIdx="14" scaleX="1" containerAlpha="1" scaleY="1" selected="false" flipHorz="false" mask="" minHeight="18.5" flipVert="false" isInteractive="false" premiumMask="0" x="16" mainStacker="false" y="355" blendMode="" rotation="0" locked="false" groupNum="0" maxWidth="-1" minWidth="56.65" maxHeight="-1" link="" imageAspectRatio="-1" taskComponentID="" styleName="" express="true" name="">
+      <params>
+        <paramNode paramName="textFormats">
+          <textFormat bold="false" color="4278229503" font="arial" italic="false" size="13" align="left" formatName="up"/>
+          <textFormat bold="false" color="4278190080" font="arial" italic="false" size="13" align="left" formatName="over"/>
+          <textFormat bold="false" color="4278190080" font="arial" italic="false" size="13" align="left" formatName="down"/>
+        </paramNode>
+        <paramNode paramName="skinSource" src="9ca147d3a002c8c93abfc010e5147b88.skinz" skinTitle="" mediaTitle="Text Only" title="TextBtn_3G" null="535439a419a3b1f264fe484955a82279.wix_ico_mp"/>
+        <paramNode paramName="texts" title="Бизнес"/>
+        <paramNode paramName="buttonParams" height="0" selected="false" iconSize="11" picTitle="Plus" width="0" showIcon="false" iconTextMargin="2" selectable="false" contentMargin="10" align="2" iconSrc="8f2c91ac24f441df20080d4e132db1ab7c28e533.wix_mp"/>
+        <paramNode paramName="contentParams"/>
+        <paramNode paramName="colors"/>
+      </params>
+      <behaviours>
+        <behaviour modifierType="setTemplatesGalleryParams" modifierID="setTemplatesGalleryParams0" title="setTemplatesGallParams" icon_src="daa0760cba142c8c821bd146a29942df.wix_ico_mp">
+          <paramNode paramName="galleryParams" method="setTemplatesGalleryParams" isComponentMethod="true" scopeID="TemplatesGallery0" dataItem="">
+            <paramObj templateSortType="sortByRank" tagsForRanking="cat_Business" tagsFilter="cat_Business,cat_Promotions"/>
+          </paramNode>
+          <paramNode paramName="params"/>
+        </behaviour>
+      </behaviours>
+    </instance>
+    <instance width="145" height="21" origWidth="135" origHeight="40" componentType="TextButton3G" title="Text Only" icon_src="09333db14c98671e6d31bf739e7c4561.wix_ico_mp" componentTypeRole="none" category1="Button3GSkin" category2="" category3="" alpha="1" instanceID="TextButton3G5" childIdx="15" scaleX="1" containerAlpha="1" scaleY="1" selected="false" flipHorz="false" mask="" minHeight="18.5" flipVert="false" isInteractive="false" premiumMask="0" x="16" mainStacker="false" y="381" blendMode="" rotation="0" locked="false" groupNum="0" maxWidth="-1" minWidth="82.45" maxHeight="-1" link="" imageAspectRatio="-1" taskComponentID="" styleName="" express="true" name="">
+      <params>
+        <paramNode paramName="textFormats">
+          <textFormat bold="false" color="4278229503" font="arial" italic="false" size="13" align="left" formatName="up"/>
+          <textFormat bold="false" color="4278190080" font="arial" italic="false" size="13" align="left" formatName="over"/>
+          <textFormat bold="false" color="4278190080" font="arial" italic="false" size="13" align="left" formatName="down"/>
+        </paramNode>
+        <paramNode paramName="skinSource" src="9ca147d3a002c8c93abfc010e5147b88.skinz" skinTitle="" mediaTitle="Text Only" title="TextBtn_3G" null="535439a419a3b1f264fe484955a82279.wix_ico_mp"/>
+        <paramNode paramName="texts" title="Консалтинг"/>
+        <paramNode paramName="buttonParams" height="0" selected="false" iconSize="11" picTitle="Plus" width="0" showIcon="false" iconTextMargin="2" selectable="false" contentMargin="10" align="2" iconSrc="8f2c91ac24f441df20080d4e132db1ab7c28e533.wix_mp"/>
+        <paramNode paramName="contentParams"/>
+        <paramNode paramName="colors"/>
+      </params>
+      <behaviours>
+        <behaviour modifierType="setTemplatesGalleryParams" modifierID="setTemplatesGalleryParams0" title="setTemplatesGallParams" icon_src="daa0760cba142c8c821bd146a29942df.wix_ico_mp">
+          <paramNode paramName="galleryParams" method="setTemplatesGalleryParams" isComponentMethod="true" scopeID="TemplatesGallery0" dataItem="">
+            <paramObj templateSortType="sortByRank" tagsForRanking="cat_Consulting" tagsFilter="cat_Consulting,cat_Promotions"/>
+          </paramNode>
+          <paramNode paramName="params"/>
+        </behaviour>
+      </behaviours>
+    </instance>
+    <instance width="145" height="21" origWidth="135" origHeight="40" componentType="TextButton3G" title="Text Only" icon_src="09333db14c98671e6d31bf739e7c4561.wix_ico_mp" componentTypeRole="none" category1="Button3GSkin" category2="" category3="" alpha="1" instanceID="TextButton3G6" childIdx="16" scaleX="1" containerAlpha="1" scaleY="1" selected="false" flipHorz="false" mask="" minHeight="18.5" flipVert="false" isInteractive="false" premiumMask="0" x="16" mainStacker="false" y="458" blendMode="" rotation="0" locked="false" groupNum="0" maxWidth="-1" minWidth="131.25" maxHeight="-1" link="" imageAspectRatio="-1" taskComponentID="" styleName="" express="true" name="">
+      <params>
+        <paramNode paramName="textFormats">
+          <textFormat bold="false" color="4278229503" font="arial" italic="false" size="13" align="left" formatName="up"/>
+          <textFormat bold="false" color="4278190080" font="arial" italic="false" size="13" align="left" formatName="over"/>
+          <textFormat bold="false" color="4278190080" font="arial" italic="false" size="13" align="left" formatName="down"/>
+        </paramNode>
+        <paramNode paramName="skinSource" src="9ca147d3a002c8c93abfc010e5147b88.skinz" skinTitle="" mediaTitle="Text Only" title="TextBtn_3G" null="535439a419a3b1f264fe484955a82279.wix_ico_mp"/>
+        <paramNode paramName="texts" title="Дизайн и искусство"/>
+        <paramNode paramName="buttonParams" height="0" selected="false" iconSize="11" picTitle="Plus" width="0" showIcon="false" iconTextMargin="2" selectable="false" contentMargin="10" align="2" iconSrc="8f2c91ac24f441df20080d4e132db1ab7c28e533.wix_mp"/>
+        <paramNode paramName="contentParams"/>
+        <paramNode paramName="colors"/>
+      </params>
+      <behaviours>
+        <behaviour modifierType="setTemplatesGalleryParams" modifierID="setTemplatesGalleryParams0" title="setTemplatesGallParams" icon_src="daa0760cba142c8c821bd146a29942df.wix_ico_mp">
+          <paramNode paramName="galleryParams" method="setTemplatesGalleryParams" isComponentMethod="true" scopeID="TemplatesGallery0" dataItem="">
+            <paramObj templateSortType="sortByRank" tagsForRanking="cat_Design" tagsFilter="cat_Design,cat_Promotions"/>
+          </paramNode>
+          <paramNode paramName="params"/>
+        </behaviour>
+      </behaviours>
+    </instance>
+    <instance width="145" height="21" origWidth="135" origHeight="40" componentType="TextButton3G" title="Text Only" icon_src="09333db14c98671e6d31bf739e7c4561.wix_ico_mp" componentTypeRole="none" category1="Button3GSkin" category2="" category3="" alpha="1" instanceID="TextButton3G7" childIdx="17" scaleX="1" containerAlpha="1" scaleY="1" selected="false" flipHorz="false" mask="" minHeight="18.5" flipVert="false" isInteractive="false" premiumMask="0" x="15.95" mainStacker="false" y="432.2" blendMode="" rotation="0" locked="false" groupNum="0" maxWidth="-1" minWidth="92.35" maxHeight="-1" link="" imageAspectRatio="-1" taskComponentID="" styleName="" express="true" name="">
+      <params>
+        <paramNode paramName="textFormats">
+          <textFormat bold="false" color="4278229503" font="arial" italic="false" size="13" align="left" formatName="up"/>
+          <textFormat bold="false" color="4278190080" font="arial" italic="false" size="13" align="left" formatName="over"/>
+          <textFormat bold="false" color="4278190080" font="arial" italic="false" size="13" align="left" formatName="down"/>
+        </paramNode>
+        <paramNode paramName="skinSource" src="9ca147d3a002c8c93abfc010e5147b88.skinz" skinTitle="" mediaTitle="Text Only" title="TextBtn_3G" null="535439a419a3b1f264fe484955a82279.wix_ico_mp"/>
+        <paramNode paramName="texts" title="Фотографии"/>
+        <paramNode paramName="buttonParams" height="0" selected="false" iconSize="11" picTitle="Plus" width="0" showIcon="false" iconTextMargin="2" selectable="false" contentMargin="10" align="2" iconSrc="8f2c91ac24f441df20080d4e132db1ab7c28e533.wix_mp"/>
+        <paramNode paramName="contentParams"/>
+        <paramNode paramName="colors"/>
+      </params>
+      <behaviours>
+        <behaviour modifierType="setTemplatesGalleryParams" modifierID="setTemplatesGalleryParams0" title="setTemplatesGallParams" icon_src="daa0760cba142c8c821bd146a29942df.wix_ico_mp">
+          <paramNode paramName="galleryParams" method="setTemplatesGalleryParams" isComponentMethod="true" scopeID="TemplatesGallery0" dataItem="">
+            <paramObj templateSortType="sortByRank" tagsForRanking="cat_Photography" tagsFilter="cat_Photography,cat_Promotions"/>
+          </paramNode>
+          <paramNode paramName="params"/>
+        </behaviour>
+      </behaviours>
+    </instance>
+    <instance width="145" height="21" origWidth="135" origHeight="40" componentType="TextButton3G" title="Text Only" icon_src="09333db14c98671e6d31bf739e7c4561.wix_ico_mp" componentTypeRole="none" category1="Button3GSkin" category2="" category3="" alpha="1" instanceID="TextButton3G8" childIdx="18" scaleX="1" containerAlpha="1" scaleY="1" selected="false" flipHorz="false" mask="" minHeight="18.5" flipVert="false" isInteractive="false" premiumMask="0" x="16" mainStacker="false" y="484" blendMode="" rotation="0" locked="false" groupNum="0" maxWidth="-1" minWidth="85.55" maxHeight="-1" link="" imageAspectRatio="-1" taskComponentID="" styleName="" express="true" name="">
+      <params>
+        <paramNode paramName="textFormats">
+          <textFormat bold="false" color="4278229503" font="arial" italic="false" size="13" align="left" formatName="up"/>
+          <textFormat bold="false" color="4278190080" font="arial" italic="false" size="13" align="left" formatName="over"/>
+          <textFormat bold="false" color="4278190080" font="arial" italic="false" size="13" align="left" formatName="down"/>
+        </paramNode>
+        <paramNode paramName="skinSource" src="9ca147d3a002c8c93abfc010e5147b88.skinz" skinTitle="" mediaTitle="Text Only" title="TextBtn_3G" null="535439a419a3b1f264fe484955a82279.wix_ico_mp"/>
+        <paramNode paramName="texts" title="Шоу-бизнес"/>
+        <paramNode paramName="buttonParams" height="0" selected="false" iconSize="11" picTitle="Plus" width="0" showIcon="false" iconTextMargin="2" selectable="false" contentMargin="10" align="2" iconSrc="8f2c91ac24f441df20080d4e132db1ab7c28e533.wix_mp"/>
+        <paramNode paramName="contentParams"/>
+        <paramNode paramName="colors"/>
+      </params>
+      <behaviours>
+        <behaviour modifierType="setTemplatesGalleryParams" modifierID="setTemplatesGalleryParams0" title="setTemplatesGallParams" icon_src="daa0760cba142c8c821bd146a29942df.wix_ico_mp">
+          <paramNode paramName="galleryParams" method="setTemplatesGalleryParams" isComponentMethod="true" scopeID="TemplatesGallery0" dataItem="">
+            <paramObj templateSortType="sortByRank" tagsForRanking="cat_Modeling" tagsFilter="cat_Modeling,cat_Promotions"/>
+          </paramNode>
+          <paramNode paramName="params"/>
+        </behaviour>
+      </behaviours>
+    </instance>
+    <instance width="191" height="21" origWidth="135" origHeight="40" componentType="TextButton3G" title="Text Only" icon_src="09333db14c98671e6d31bf739e7c4561.wix_ico_mp" componentTypeRole="none" category1="Button3GSkin" category2="" category3="" alpha="1" instanceID="TextButton3G9" childIdx="19" scaleX="1" containerAlpha="1" scaleY="1" selected="false" flipHorz="false" mask="" minHeight="18.5" flipVert="false" isInteractive="false" premiumMask="0" x="16" mainStacker="false" y="536" blendMode="" rotation="0" locked="false" groupNum="0" maxWidth="-1" minWidth="187.6" maxHeight="-1" link="" imageAspectRatio="-1" taskComponentID="" styleName="" express="true" name="">
+      <params>
+        <paramNode paramName="textFormats">
+          <textFormat bold="false" color="4278229503" font="arial" italic="false" size="13" align="left" formatName="up"/>
+          <textFormat bold="false" color="4278190080" font="arial" italic="false" size="13" align="left" formatName="over"/>
+          <textFormat bold="false" color="4278190080" font="arial" italic="false" size="13" align="left" formatName="down"/>
+        </paramNode>
+        <paramNode paramName="skinSource" src="9ca147d3a002c8c93abfc010e5147b88.skinz" skinTitle="" mediaTitle="Text Only" title="TextBtn_3G" null="535439a419a3b1f264fe484955a82279.wix_ico_mp"/>
+        <paramNode paramName="texts" title="Продукты питания и напитки"/>
+        <paramNode paramName="buttonParams" height="0" selected="false" iconSize="11" picTitle="Plus" width="0" showIcon="false" iconTextMargin="2" selectable="false" contentMargin="10" align="2" iconSrc="8f2c91ac24f441df20080d4e132db1ab7c28e533.wix_mp"/>
+        <paramNode paramName="contentParams"/>
+        <paramNode paramName="colors"/>
+      </params>
+      <behaviours>
+        <behaviour modifierType="setTemplatesGalleryParams" modifierID="setTemplatesGalleryParams0" title="setTemplatesGallParams" icon_src="daa0760cba142c8c821bd146a29942df.wix_ico_mp">
+          <paramNode paramName="galleryParams" method="setTemplatesGalleryParams" isComponentMethod="true" scopeID="TemplatesGallery0" dataItem="">
+            <paramObj templateSortType="sortByRank" tagsForRanking="cat_Food_and_Drink" tagsFilter="cat_Food_and_Drink,cat_Promotions"/>
+          </paramNode>
+          <paramNode paramName="params"/>
+        </behaviour>
+      </behaviours>
+    </instance>
+    <instance width="157" height="21" origWidth="135" origHeight="40" componentType="TextButton3G" title="Text Only" icon_src="09333db14c98671e6d31bf739e7c4561.wix_ico_mp" componentTypeRole="none" category1="Button3GSkin" category2="" category3="" alpha="1" instanceID="TextButton3G10" childIdx="20" scaleX="1" containerAlpha="1" scaleY="1" selected="false" flipHorz="false" mask="" minHeight="18.5" flipVert="false" isInteractive="false" premiumMask="0" x="16" mainStacker="false" y="561" blendMode="" rotation="0" locked="false" groupNum="0" maxWidth="-1" minWidth="153.4" maxHeight="-1" link="" imageAspectRatio="-1" taskComponentID="" styleName="" express="true" name="">
+      <params>
+        <paramNode paramName="textFormats">
+          <textFormat bold="false" color="4278229503" font="arial" italic="false" size="13" align="left" formatName="up"/>
+          <textFormat bold="false" color="4278190080" font="arial" italic="false" size="13" align="left" formatName="over"/>
+          <textFormat bold="false" color="4278190080" font="arial" italic="false" size="13" align="left" formatName="down"/>
+        </paramNode>
+        <paramNode paramName="skinSource" src="9ca147d3a002c8c93abfc010e5147b88.skinz" mediaTitle="Text Only" skinTitle="" title="TextBtn_3G" null="535439a419a3b1f264fe484955a82279.wix_ico_mp"/>
+        <paramNode paramName="texts" title="Здоровый образ жизни"/>
+        <paramNode paramName="buttonParams" height="0" selected="false" iconSize="11" picTitle="Plus" width="0" showIcon="false" iconTextMargin="2" selectable="false" contentMargin="10" align="2" iconSrc="8f2c91ac24f441df20080d4e132db1ab7c28e533.wix_mp"/>
+        <paramNode paramName="contentParams"/>
+        <paramNode paramName="colors"/>
+      </params>
+      <behaviours>
+        <behaviour modifierType="setTemplatesGalleryParams" modifierID="setTemplatesGalleryParams0" title="setTemplatesGallParams" icon_src="daa0760cba142c8c821bd146a29942df.wix_ico_mp">
+          <paramNode paramName="galleryParams" method="setTemplatesGalleryParams" isComponentMethod="true" scopeID="TemplatesGallery0" dataItem="">
+            <paramObj templateSortType="sortByRank" tagsForRanking="cat_Lifestyle" tagsFilter="cat_Lifestyle,cat_Promotions"/>
+          </paramNode>
+          <paramNode paramName="params"/>
+        </behaviour>
+      </behaviours>
+    </instance>
+    <instance width="148" height="21" origWidth="135" origHeight="40" componentType="TextButton3G" title="Text Only" icon_src="09333db14c98671e6d31bf739e7c4561.wix_ico_mp" componentTypeRole="none" category1="Button3GSkin" category2="" category3="" alpha="1" instanceID="TextButton3G11" childIdx="21" scaleX="1" containerAlpha="1" scaleY="1" selected="false" flipHorz="false" mask="" minHeight="18.5" flipVert="false" isInteractive="false" premiumMask="0" x="16" mainStacker="false" y="587" blendMode="" rotation="0" locked="false" groupNum="0" maxWidth="-1" minWidth="144.05" maxHeight="-1" link="" imageAspectRatio="-1" taskComponentID="" styleName="" express="true" name="">
+      <params>
+        <paramNode paramName="textFormats">
+          <textFormat bold="false" color="4278229503" font="arial" italic="false" size="13" align="left" formatName="up"/>
+          <textFormat bold="false" color="4278190080" font="arial" italic="false" size="13" align="left" formatName="over"/>
+          <textFormat bold="false" color="4278190080" font="arial" italic="false" size="13" align="left" formatName="down"/>
+        </paramNode>
+        <paramNode paramName="skinSource" src="9ca147d3a002c8c93abfc010e5147b88.skinz" skinTitle="" mediaTitle="Text Only" title="TextBtn_3G" null="535439a419a3b1f264fe484955a82279.wix_ico_mp"/>
+        <paramNode paramName="texts" title="Транспортные услуги"/>
+        <paramNode paramName="buttonParams" height="0" selected="false" iconSize="11" picTitle="Plus" width="0" showIcon="false" iconTextMargin="2" selectable="false" contentMargin="10" align="2" iconSrc="8f2c91ac24f441df20080d4e132db1ab7c28e533.wix_mp"/>
+        <paramNode paramName="contentParams"/>
+        <paramNode paramName="colors"/>
+      </params>
+      <behaviours>
+        <behaviour modifierType="setTemplatesGalleryParams" modifierID="setTemplatesGalleryParams0" title="setTemplatesGallParams" icon_src="daa0760cba142c8c821bd146a29942df.wix_ico_mp">
+          <paramNode paramName="galleryParams" method="setTemplatesGalleryParams" isComponentMethod="true" scopeID="TemplatesGallery0" dataItem="">
+            <paramObj templateSortType="sortByRank" tagsForRanking="cat_Transportation" tagsFilter="cat_Transportation,cat_Promotions"/>
+          </paramNode>
+          <paramNode paramName="params"/>
+        </behaviour>
+      </behaviours>
+    </instance>
+    <instance width="145" height="21" origWidth="135" origHeight="40" componentType="TextButton3G" title="Text Only" icon_src="09333db14c98671e6d31bf739e7c4561.wix_ico_mp" componentTypeRole="none" category1="Button3GSkin" category2="" category3="" alpha="1" instanceID="TextButton3G12" childIdx="22" scaleX="1" containerAlpha="1" scaleY="1" selected="false" flipHorz="false" mask="" minHeight="18.5" flipVert="false" isInteractive="false" premiumMask="0" x="16" mainStacker="false" y="639" blendMode="" rotation="0" locked="false" groupNum="0" maxWidth="-1" minWidth="59.55" maxHeight="-1" link="" imageAspectRatio="-1" taskComponentID="" styleName="" express="true" name="">
+      <params>
+        <paramNode paramName="textFormats">
+          <textFormat bold="false" color="4278229503" font="arial" italic="false" size="13" align="left" formatName="up"/>
+          <textFormat bold="false" color="4278190080" font="arial" italic="false" size="13" align="left" formatName="over"/>
+          <textFormat bold="false" color="4278190080" font="arial" italic="false" size="13" align="left" formatName="down"/>
+        </paramNode>
+        <paramNode paramName="skinSource" src="9ca147d3a002c8c93abfc010e5147b88.skinz" skinTitle="" mediaTitle="Text Only" title="TextBtn_3G" null="535439a419a3b1f264fe484955a82279.wix_ico_mp"/>
+        <paramNode paramName="texts" title="Музыка"/>
+        <paramNode paramName="buttonParams" height="0" selected="false" iconSize="11" picTitle="Plus" width="0" showIcon="false" iconTextMargin="2" selectable="false" contentMargin="10" align="2" iconSrc="8f2c91ac24f441df20080d4e132db1ab7c28e533.wix_mp"/>
+        <paramNode paramName="contentParams"/>
+        <paramNode paramName="colors"/>
+      </params>
+      <behaviours>
+        <behaviour modifierType="setTemplatesGalleryParams" modifierID="setTemplatesGalleryParams0" title="setTemplatesGallParams" icon_src="daa0760cba142c8c821bd146a29942df.wix_ico_mp">
+          <paramNode paramName="galleryParams" method="setTemplatesGalleryParams" isComponentMethod="true" scopeID="TemplatesGallery0" dataItem="">
+            <paramObj templateSortType="sortByRank" tagsForRanking="cat_Music" tagsFilter="cat_Music,cat_Promotions"/>
+          </paramNode>
+          <paramNode paramName="params"/>
+        </behaviour>
+      </behaviours>
+    </instance>
+    <instance width="60" height="1286" origWidth="60" origHeight="60" componentType="basicShape" title="Square" icon_src="75d1ea92fef7d157a5edaeef87b8d8c80e61a18d.wix_ico_mp" componentTypeRole="none" category1="basic shape" category2="" category3="basic shape" alpha="1" instanceID="basicShape24" childIdx="23" maxWidth="-1" groupNum="0" maxHeight="-1" mask="" scaleX="1" premiumMask="0" blendMode="" containerAlpha="1" link="" flipVert="false" isInteractive="false" y="-8" minWidth="-1" scaleY="1" flipHorz="false" rotation="0" minHeight="-1" x="999" mainStacker="false" locked="false" selected="false" imageAspectRatio="-1" taskComponentID="" styleName="" express="true" name="">
+      <params>
+        <paramNode paramName="shape" src="75d1ea92fef7d157a5edaeef87b8d8c80e61a18d.wix_mp" autoSize="true" shapeTitle="Select shape" aspectRatio="stretch" title="Square"/>
+        <paramNode paramName="stroke0" id="stroke0" color="#01ffffff" strokeWidth="0"/>
+        <paramNode paramName="fill0" id="fill0" color="0xffe1e1e1" absolute="false" fillType="solid"/>
+      </params>
+    </instance>
+    <instance width="145" height="21" origWidth="135" origHeight="40" componentType="TextButton3G" title="Text Only" icon_src="09333db14c98671e6d31bf739e7c4561.wix_ico_mp" componentTypeRole="none" category1="Button3GSkin" category2="" category3="" alpha="1" instanceID="TextButton3G13" childIdx="24" scaleX="1" containerAlpha="1" scaleY="1" selected="false" flipHorz="false" mask="" minHeight="18.5" flipVert="false" isInteractive="false" premiumMask="0" x="16" mainStacker="false" y="407" blendMode="" rotation="0" locked="false" groupNum="0" maxWidth="-1" minWidth="103.75" maxHeight="-1" link="" imageAspectRatio="-1" taskComponentID="" styleName="" express="true" name="">
+      <params>
+        <paramNode paramName="textFormats">
+          <textFormat bold="false" color="4278229503" font="arial" italic="false" size="13" align="left" formatName="up"/>
+          <textFormat bold="false" color="4278190080" font="arial" italic="false" size="13" align="left" formatName="over"/>
+          <textFormat bold="false" color="4278190080" font="arial" italic="false" size="13" align="left" formatName="down"/>
+        </paramNode>
+        <paramNode paramName="skinSource" src="9ca147d3a002c8c93abfc010e5147b88.skinz" skinTitle="" mediaTitle="Text Only" title="TextBtn_3G" null="535439a419a3b1f264fe484955a82279.wix_ico_mp"/>
+        <paramNode paramName="texts" title="Недвижимость"/>
+        <paramNode paramName="buttonParams" height="0" selected="false" iconSize="11" picTitle="Plus" width="0" showIcon="false" iconTextMargin="2" selectable="false" contentMargin="10" align="2" iconSrc="8f2c91ac24f441df20080d4e132db1ab7c28e533.wix_mp"/>
+        <paramNode paramName="contentParams"/>
+        <paramNode paramName="colors"/>
+      </params>
+      <behaviours>
+        <behaviour modifierType="setTemplatesGalleryParams" modifierID="setTemplatesGalleryParams0" title="setTemplatesGallParams" icon_src="daa0760cba142c8c821bd146a29942df.wix_ico_mp">
+          <paramNode paramName="galleryParams" method="setTemplatesGalleryParams" isComponentMethod="true" scopeID="TemplatesGallery0" dataItem="">
+            <paramObj templateSortType="sortByRank" tagsForRanking="cat_Real_Estate" tagsFilter="cat_Real_Estate,cat_Promotions"/>
+          </paramNode>
+          <paramNode paramName="params"/>
+        </behaviour>
+      </behaviours>
+    </instance>
+    <instance width="145" height="21" origWidth="135" origHeight="40" componentType="TextButton3G" title="Text Only" icon_src="09333db14c98671e6d31bf739e7c4561.wix_ico_mp" componentTypeRole="none" category1="Button3GSkin" category2="" category3="" alpha="1" instanceID="TextButton3G14" childIdx="25" scaleX="1" containerAlpha="1" scaleY="1" selected="false" flipHorz="false" mask="" minHeight="18.5" flipVert="false" isInteractive="false" premiumMask="0" x="16.05" mainStacker="false" y="664.8" blendMode="" rotation="0" locked="false" groupNum="0" maxWidth="-1" minWidth="107.7" maxHeight="-1" link="" imageAspectRatio="-1" taskComponentID="" styleName="" express="true" name="">
+      <params>
+        <paramNode paramName="textFormats">
+          <textFormat bold="false" color="4278229503" font="arial" italic="false" size="13" align="left" formatName="up"/>
+          <textFormat bold="false" color="4278190080" font="arial" italic="false" size="13" align="left" formatName="over"/>
+          <textFormat bold="false" color="4278190080" font="arial" italic="false" size="13" align="left" formatName="down"/>
+        </paramNode>
+        <paramNode paramName="skinSource" src="9ca147d3a002c8c93abfc010e5147b88.skinz" skinTitle="" mediaTitle="Text Only" title="TextBtn_3G" null="535439a419a3b1f264fe484955a82279.wix_ico_mp"/>
+        <paramNode paramName="texts" title="Персональныe"/>
+        <paramNode paramName="buttonParams" height="0" selected="false" iconSize="11" picTitle="Plus" width="0" showIcon="false" iconTextMargin="2" selectable="false" contentMargin="10" align="2" iconSrc="8f2c91ac24f441df20080d4e132db1ab7c28e533.wix_mp"/>
+        <paramNode paramName="contentParams"/>
+        <paramNode paramName="colors"/>
+      </params>
+      <behaviours>
+        <behaviour modifierType="setTemplatesGalleryParams" modifierID="setTemplatesGalleryParams0" title="setTemplatesGallParams" icon_src="daa0760cba142c8c821bd146a29942df.wix_ico_mp">
+          <paramNode paramName="galleryParams" method="setTemplatesGalleryParams" isComponentMethod="true" scopeID="TemplatesGallery0" dataItem="">
+            <paramObj templateSortType="sortByRank" tagsForRanking="cat_Personal" tagsFilter="cat_Personal,cat_Promotions"/>
+          </paramNode>
+          <paramNode paramName="params"/>
+        </behaviour>
+      </behaviours>
+    </instance>
+    <instance width="145" height="21" origWidth="135" origHeight="40" componentType="TextButton3G" title="Text Only" icon_src="09333db14c98671e6d31bf739e7c4561.wix_ico_mp" componentTypeRole="none" category1="Button3GSkin" category2="" category3="" alpha="1" instanceID="TextButton3G39" childIdx="26" scaleX="1" containerAlpha="1" scaleY="1" selected="false" flipHorz="false" mask="" minHeight="18.5" flipVert="false" isInteractive="false" premiumMask="0" x="16" mainStacker="false" y="613" blendMode="" rotation="0" locked="false" groupNum="0" maxWidth="-1" minWidth="43.25" maxHeight="-1" link="" imageAspectRatio="-1" taskComponentID="" styleName="" express="true" name="">
+      <params>
+        <paramNode paramName="textFormats">
+          <textFormat bold="false" color="4278229503" font="arial" italic="false" size="13" align="left" formatName="up"/>
+          <textFormat bold="false" color="4278190080" font="arial" italic="false" size="13" align="left" formatName="over"/>
+          <textFormat bold="false" color="4278190080" font="arial" italic="false" size="13" align="left" formatName="down"/>
+        </paramNode>
+        <paramNode paramName="skinSource" src="9ca147d3a002c8c93abfc010e5147b88.skinz" skinTitle="" mediaTitle="Text Only" title="TextBtn_3G" null="535439a419a3b1f264fe484955a82279.wix_ico_mp"/>
+        <paramNode paramName="texts" title="Дети"/>
+        <paramNode paramName="buttonParams" height="0" selected="false" iconSize="11" picTitle="Plus" width="0" showIcon="false" iconTextMargin="2" selectable="false" contentMargin="10" align="2" iconSrc="8f2c91ac24f441df20080d4e132db1ab7c28e533.wix_mp"/>
+        <paramNode paramName="contentParams"/>
+        <paramNode paramName="colors"/>
+      </params>
+      <behaviours>
+        <behaviour modifierType="setTemplatesGalleryParams" modifierID="setTemplatesGalleryParams0" title="setTemplatesGallParams" icon_src="daa0760cba142c8c821bd146a29942df.wix_ico_mp">
+          <paramNode paramName="galleryParams" method="setTemplatesGalleryParams" isComponentMethod="true" scopeID="TemplatesGallery0" dataItem="">
+            <paramObj templateSortType="sortByRank" tagsForRanking="cat_Kids" tagsFilter="cat_Kids,cat_Promotions"/>
+          </paramNode>
+          <paramNode paramName="params"/>
+        </behaviour>
+      </behaviours>
+    </instance>
+    <instance width="145" height="21" origWidth="135" origHeight="40" componentType="TextButton3G" title="Text Only" icon_src="09333db14c98671e6d31bf739e7c4561.wix_ico_mp" componentTypeRole="none" category1="Button3GSkin" category2="" category3="" alpha="1" instanceID="TextButton3G16" childIdx="27" scaleX="1" containerAlpha="1" scaleY="1" selected="false" flipHorz="false" mask="" minHeight="18.5" flipVert="false" isInteractive="false" premiumMask="0" x="15.95" mainStacker="false" y="725.2" blendMode="" rotation="0" locked="false" groupNum="0" maxWidth="-1" minWidth="56.75" maxHeight="-1" link="" imageAspectRatio="-1" taskComponentID="" styleName="" express="true" name="">
+      <params>
+        <paramNode paramName="textFormats">
+          <textFormat bold="false" color="4278229503" font="arial" italic="false" size="13" align="left" formatName="up"/>
+          <textFormat bold="false" color="4278190080" font="arial" italic="false" size="13" align="left" formatName="over"/>
+          <textFormat bold="false" color="4278190080" font="arial" italic="false" size="13" align="left" formatName="down"/>
+        </paramNode>
+        <paramNode paramName="skinSource" src="9ca147d3a002c8c93abfc010e5147b88.skinz" skinTitle="" mediaTitle="Text Only" title="TextBtn_3G" null="535439a419a3b1f264fe484955a82279.wix_ico_mp"/>
+        <paramNode paramName="texts" title="Сайты"/>
+        <paramNode paramName="buttonParams" height="0" selected="false" iconSize="11" picTitle="Plus" width="0" showIcon="false" iconTextMargin="2" selectable="false" contentMargin="10" align="2" iconSrc="8f2c91ac24f441df20080d4e132db1ab7c28e533.wix_mp"/>
+        <paramNode paramName="contentParams"/>
+        <paramNode paramName="colors"/>
+      </params>
+      <behaviours>
+        <behaviour modifierType="setTemplatesGalleryParams" modifierID="setTemplatesGalleryParams0" title="setTemplatesGallParams" icon_src="daa0760cba142c8c821bd146a29942df.wix_ico_mp">
+          <paramNode paramName="galleryParams" method="setTemplatesGalleryParams" isComponentMethod="true" scopeID="TemplatesGallery0" dataItem="">
+            <paramObj templateSortType="sortByRank" tagsForRanking="pro_Website" tagsFilter="pro_Website,cat_Promotions"/>
+          </paramNode>
+          <paramNode paramName="params"/>
+        </behaviour>
+      </behaviours>
+    </instance>
+    <instance width="145" height="21" origWidth="135" origHeight="40" componentType="TextButton3G" title="Text Only" icon_src="09333db14c98671e6d31bf739e7c4561.wix_ico_mp" componentTypeRole="none" category1="Button3GSkin" category2="" category3="" alpha="1" instanceID="TextButton3G17" childIdx="28" scaleX="1" containerAlpha="1" scaleY="1" selected="false" flipHorz="false" mask="" minHeight="18.5" flipVert="false" isInteractive="false" premiumMask="0" x="16" mainStacker="false" y="780" blendMode="" rotation="0" locked="false" groupNum="0" maxWidth="-1" minWidth="83.75" maxHeight="-1" link="" imageAspectRatio="-1" taskComponentID="" styleName="" express="true" name="">
+      <params>
+        <paramNode paramName="textFormats">
+          <textFormat bold="false" color="4278229503" font="arial" italic="false" size="13" align="left" formatName="up"/>
+          <textFormat bold="false" color="4278190080" font="arial" italic="false" size="13" align="left" formatName="over"/>
+          <textFormat bold="false" color="4278190080" font="arial" italic="false" size="13" align="left" formatName="down"/>
+        </paramNode>
+        <paramNode paramName="skinSource" src="9ca147d3a002c8c93abfc010e5147b88.skinz" skinTitle="" mediaTitle="Text Only" title="TextBtn_3G" null="535439a419a3b1f264fe484955a82279.wix_ico_mp"/>
+        <paramNode paramName="texts" title="Портфолио"/>
+        <paramNode paramName="buttonParams" height="0" selected="false" iconSize="11" picTitle="Plus" width="0" showIcon="false" iconTextMargin="2" selectable="false" contentMargin="10" align="2" iconSrc="8f2c91ac24f441df20080d4e132db1ab7c28e533.wix_mp"/>
+        <paramNode paramName="contentParams"/>
+        <paramNode paramName="colors"/>
+      </params>
+      <behaviours>
+        <behaviour modifierType="setTemplatesGalleryParams" modifierID="setTemplatesGalleryParams0" title="setTemplatesGallParams" icon_src="daa0760cba142c8c821bd146a29942df.wix_ico_mp">
+          <paramNode paramName="galleryParams" method="setTemplatesGalleryParams" isComponentMethod="true" scopeID="TemplatesGallery0" dataItem="">
+            <paramObj templateSortType="sortByRank" tagsForRanking="sort_Portfolio" tagsFilter="sort_Portfolio,cat_Promotions"/>
+          </paramNode>
+          <paramNode paramName="params"/>
+        </behaviour>
+      </behaviours>
+    </instance>
+    <instance width="145" height="21" origWidth="135" origHeight="40" componentType="TextButton3G" title="Text Only" icon_src="09333db14c98671e6d31bf739e7c4561.wix_ico_mp" componentTypeRole="none" category1="Button3GSkin" category2="" category3="" alpha="1" instanceID="TextButton3G18" childIdx="29" scaleX="1" containerAlpha="1" scaleY="1" selected="false" flipHorz="false" mask="" minHeight="18.5" flipVert="false" isInteractive="false" premiumMask="0" x="16" mainStacker="false" y="807" blendMode="" rotation="0" locked="false" groupNum="0" maxWidth="-1" minWidth="60.95" maxHeight="-1" link="" imageAspectRatio="-1" taskComponentID="" styleName="" express="true" name="">
+      <params>
+        <paramNode paramName="textFormats">
+          <textFormat bold="false" color="4278229503" font="arial" italic="false" size="13" align="left" formatName="up"/>
+          <textFormat bold="false" color="4278190080" font="arial" italic="false" size="13" align="left" formatName="over"/>
+          <textFormat bold="false" color="4278190080" font="arial" italic="false" size="13" align="left" formatName="down"/>
+        </paramNode>
+        <paramNode paramName="skinSource" src="9ca147d3a002c8c93abfc010e5147b88.skinz" skinTitle="" mediaTitle="Text Only" title="TextBtn_3G" null="535439a419a3b1f264fe484955a82279.wix_ico_mp"/>
+        <paramNode paramName="texts" title="Widgets"/>
+        <paramNode paramName="buttonParams" height="0" selected="false" iconSize="11" picTitle="Plus" width="0" showIcon="false" iconTextMargin="2" selectable="false" contentMargin="10" align="2" iconSrc="8f2c91ac24f441df20080d4e132db1ab7c28e533.wix_mp"/>
+        <paramNode paramName="contentParams"/>
+        <paramNode paramName="colors"/>
+      </params>
+      <behaviours>
+        <behaviour modifierType="setTemplatesGalleryParams" modifierID="setTemplatesGalleryParams0" title="setTemplatesGallParams" icon_src="daa0760cba142c8c821bd146a29942df.wix_ico_mp">
+          <paramNode paramName="galleryParams" method="setTemplatesGalleryParams" isComponentMethod="true" scopeID="TemplatesGallery0" dataItem="">
+            <paramObj templateSortType="sortByRank" tagsForRanking="pro_Widget" tagsFilter="pro_Widget,cat_Promotions"/>
+          </paramNode>
+          <paramNode paramName="params"/>
+        </behaviour>
+      </behaviours>
+    </instance>
+    <instance width="992" height="34" origWidth="200" origHeight="200" componentType="picture" title="seperator.swf" icon_src="" componentTypeRole="none" category1="" category2="" category3="" alpha="1" instanceID="picture30" groupNum="0" scaleX="1" blendMode="NORMAL" scaleY="1" mask="none" y="144" skewY="0" containerAlpha="1" selected="false" skewX="0" flipHorz="false" x="24" flipVert="false" rotation="0" locked="false" maxHeight="-1" minWidth="-1" minHeight="-1" maxWidth="-1" childIdx="30" mainStacker="false" premiumMask="0" isInteractive="false" link="" imageAspectRatio="-1" taskComponentID="" styleName="" express="true" name="">
+      <params>
+        <paramNode paramName="pic" src="a16fad2663ed34d0d86060cdeb8eb41e.wix_mp" cropRotation="0" aspectRatio="stretch" cropX="0" providerName="" cropY="-3.943" cropWidth="992" picTitle="seperator.swf" cropHeight="41.887"/>
+      </params>
+    </instance>
+    <instance width="145" height="21" origWidth="135" origHeight="40" componentType="TextButton3G" title="Text Only" icon_src="09333db14c98671e6d31bf739e7c4561.wix_ico_mp" componentTypeRole="none" category1="Button3GSkin" category2="" category3="" alpha="1" instanceID="TextButton3G23" childIdx="31" scaleX="1" containerAlpha="1" scaleY="1" selected="false" flipHorz="false" mask="" minHeight="18.5" flipVert="false" isInteractive="false" premiumMask="0" x="16" mainStacker="false" y="510" blendMode="" rotation="0" locked="false" groupNum="0" maxWidth="-1" minWidth="46.85" maxHeight="-1" link="" imageAspectRatio="-1" taskComponentID="" styleName="" express="true" name="">
+      <params>
+        <paramNode paramName="textFormats">
+          <textFormat bold="false" color="4278229503" font="arial" italic="false" size="13" align="left" formatName="up"/>
+          <textFormat bold="false" color="4278190080" font="arial" italic="false" size="13" align="left" formatName="over"/>
+          <textFormat bold="false" color="4278190080" font="arial" italic="false" size="13" align="left" formatName="down"/>
+        </paramNode>
+        <paramNode paramName="skinSource" src="9ca147d3a002c8c93abfc010e5147b88.skinz" skinTitle="" mediaTitle="Text Only" title="TextBtn_3G" null="535439a419a3b1f264fe484955a82279.wix_ico_mp"/>
+        <paramNode paramName="texts" title="Мода"/>
+        <paramNode paramName="buttonParams" height="0" selected="false" iconSize="11" picTitle="Plus" width="0" showIcon="false" iconTextMargin="2" selectable="false" contentMargin="10" align="2" iconSrc="8f2c91ac24f441df20080d4e132db1ab7c28e533.wix_mp"/>
+        <paramNode paramName="contentParams"/>
+        <paramNode paramName="colors"/>
+      </params>
+      <behaviours>
+        <behaviour modifierType="setTemplatesGalleryParams" modifierID="setTemplatesGalleryParams0" title="setTemplatesGallParams" icon_src="daa0760cba142c8c821bd146a29942df.wix_ico_mp">
+          <paramNode paramName="galleryParams" method="setTemplatesGalleryParams" isComponentMethod="true" scopeID="TemplatesGallery0" dataItem="">
+            <paramObj templateSortType="sortByRank" tagsForRanking="cat_Fashion" tagsFilter="cat_Fashion"/>
+          </paramNode>
+          <paramNode paramName="params"/>
+        </behaviour>
+      </behaviours>
+    </instance>
+    <instance width="139" height="52" componentType="loginView" title="loginView2" icon_src="" componentTypeRole="none" category1="" category2="" category3="" maxWidth="1000" maxHeight="1000" minWidth="1" minHeight="1" alpha="1" instanceID="loginView3" x="846" mask="" y="10" locked="false" flipVert="false" groupNum="0" flipHorz="false" rotation="0" scaleX="1" containerAlpha="1" selected="false" blendMode="" scaleY="1" childIdx="32" mainStacker="false" premiumMask="0" isInteractive="false" link="" imageAspectRatio="-1" origWidth="139" origHeight="52" styleName="" taskComponentID="" express="true" name="">
+      <params>
+        <paramNode paramName="skinSource" src="editorParts/loginview2.swf" symbol="" title="login View 21_08_08"/>
+        <paramNode paramName="loginViewParams" createAccountAction="login" url_logOut="http://www.wix.com" url="http://www.wix.com/create/my-account" referral="slick-create" currentPage="testPage" isDoc="false" scopeWidth="139" scopeHeight="52" openInSameWindow="true" alignment="6" url_reg="http://www.wix.com/new/account"/>
+      </params>
+    </instance>
+    <instance componentType="paraText" x="10" flipHorz="false" y="1114" groupNum="0" origWidth="978" alpha="1" scaleX="1" skewX="0" scaleY="1" width="980" skewY="0" mask="none" blendMode="NORMAL" rotation="0" height="121" containerAlpha="1" selected="false" origHeight="82" flipVert="false" instanceID="paraText19" title="Simple Text Box" icon_src="765fd7c5170857884336d553b7378df0.wix_ico_mp" category3="" maxWidth="-1" maxHeight="-1" minWidth="-1" locked="false" minHeight="-1" category1="" componentTypeRole="none" category2="" childIdx="33" mainStacker="false" premiumMask="0" isInteractive="false" link="" imageAspectRatio="-1" taskComponentID="" styleName="" express="true" name="">
+      <params>
+        <paramNode paramName="text" size="32" color="0x000000" sharpness="-117" wrap="true" thickness="61" width="0" multiLine="true" drawFrame="false" editable="false" embed="false" bold="false" height="0" fieldType="paragraph" font="Arial" italics="false" autoSize="left" simpleText="" selectable="true"><![CDATA[<P ALIGN="CENTER"><FONT FACE="Arial" SIZE="10" COLOR="#8E8E8E" LETTERSPACING="-0.1" KERNING="1">Создайте без лишних проблем и затрат бесплатный веб-сайт, которым Вы по праву сможете гордиться.  Присоединяйтесь к многомиллионной группе пользователей из разных стран мира, создавших свои сайты с помощью Wix. Зарегистрируйтесь на Wix, получите бесплатную учетную запись пользователя и можете сразу же приступать к работе. Удивите самого себя своей креативностью и насладитесь свободой творчества, которую дает Wix. Вы сможете максимально использовать свой потенциал, чтобы привлечь ценное внимание пользователей Интернета, а веб-дизайн вашего сайта произведет незабываемое впечатление на посетителей. Используя имеющиеся в графическом редакторе Wix бесплатные объекты веб-дизайна, Вы самым простым и наиболее экономически эффективным способом достигните профессионального уровня разработки веб-сайта. Немедленно увольняйте своего профессионального веб-дизайнера и регистрируйтесь на Wix для создания бесплатного веб-сайта. В конструкторе веб-сайтов Wix есть все, что Вам необходимо для бесплатного создания своего сайта любого типа: для бизнеса, для личных целей, для рекламы фотографий, произведений искусства или музыки. Галереи шаблонов на Wix до краев заполнены прекрасными и уникальными творческими разработками, созданными веб-дизайнерами нашей студии. Для создания или обновления своего сайта Вам не нужно будет тратить массу времени на программирование. После регистрации на Wix и получения учетной запись пользователя Вы сможете без ограничений пользоваться всеми бесплатными шаблонами для веб-дизайна.</FONT></P>]]></paramNode>
+      </params>
+    </instance>
+    <instance width="18" height="18" origWidth="80" origHeight="80" category1="vector" category2="Icons" category3="" componentType="picture" title="France" icon_src="736deddb09697523e9d3951b6469f936.wix_ico_mp" componentTypeRole="none" alpha="1" instanceID="picture73" childIdx="34" taskComponentID="" selected="false" containerAlpha="1" flipHorz="false" mask="" flipVert="false" isInteractive="false" rotation="0" locked="false" minWidth="-1" minHeight="-1" scaleX="1" maxWidth="-1" scaleY="1" maxHeight="-1" x="939" blendMode="" y="60" premiumMask="0" imageAspectRatio="-1" styleName="" link="" groupNum="0" express="true" name="">
+      <params>
+        <paramNode paramName="pic" src="e4dd9c32abc435339b9aa83478cbcad9.wix_mp" cropRotation="0" aspectRatio="stretch" cropX="-0.113" providerName="" cropY="0" cropWidth="18.225" picTitle="France" cropHeight="18"/>
+      </params>
+      <behaviours>
+        <behaviour modifierType="changeLanguage" modifierID="changeLanguage0" title="ChangeLanguage" icon_src="">
+          <paramNode paramName="changeLanguageParams" language="fr"/>
+        </behaviour>
+      </behaviours>
+    </instance>
+    <instance width="18" height="18" origWidth="80" origHeight="80" category1="vector" category2="Icons" category3="" componentType="picture" title="USA" icon_src="3f6b890657643b75eb2a0d510c05df2f.wix_ico_mp" componentTypeRole="none" alpha="1" instanceID="picture70" childIdx="35" scaleX="1" scaleY="1" x="884" link="" y="60" containerAlpha="1" mask="" locked="false" flipHorz="false" flipVert="false" minWidth="-1" rotation="0" minHeight="-1" maxWidth="-1" imageAspectRatio="-1" groupNum="0" isInteractive="false" premiumMask="0" maxHeight="-1" styleName="" taskComponentID="" blendMode="" selected="false" express="true" name="">
+      <params>
+        <paramNode paramName="pic" src="982c2af983c248ffb9047455ce578a55.wix_mp" cropRotation="0" aspectRatio="stretch" cropX="0" providerName="" cropY="0" cropWidth="18" picTitle="USA" cropHeight="18"/>
+      </params>
+      <behaviours>
+        <behaviour modifierType="changeLanguage" modifierID="changeLanguage0" title="ChangeLanguage" icon_src="">
+          <paramNode paramName="changeLanguageParams" language="en"/>
+        </behaviour>
+      </behaviours>
+    </instance>
+    <instance width="18" height="18" origWidth="31" origHeight="30" componentType="picture" title="spain flag" icon_src="3464894d8437a8076632f9e2e1383b78.wix_ico_mp" componentTypeRole="" category1="" category2="" category3="" alpha="1" instanceID="picture72" mask="" rotation="0" x="911" y="60" blendMode="" locked="false" containerAlpha="1" maxHeight="-1" maxWidth="-1" groupNum="0" minWidth="-1" minHeight="-1" scaleX="1" flipVert="false" scaleY="1" selected="false" flipHorz="false" childIdx="36" mainStacker="false" premiumMask="0" isInteractive="false" link="" imageAspectRatio="-1" taskComponentID="" styleName="" express="true" name="">
+      <params>
+        <paramNode paramName="pic" src="7999768775ca40a57351eb8318c86693.wix_mp" cropRotation="0" aspectRatio="centerfull" cropX="-0.3" providerName="" cropY="0" cropWidth="18.6" picTitle="flag_spain" cropHeight="18"/>
+      </params>
+      <behaviours>
+        <behaviour modifierType="changeLanguage" modifierID="changeLanguage0" title="ChangeLanguage" icon_src="">
+          <paramNode paramName="changeLanguageParams" language="es"/>
+        </behaviour>
+      </behaviours>
+    </instance>
+    <instance width="145" height="21" origWidth="135" origHeight="40" componentType="TextButton3G" title="Text Only" icon_src="09333db14c98671e6d31bf739e7c4561.wix_ico_mp" componentTypeRole="none" category1="Button3GSkin" category2="" category3="" alpha="1" instanceID="TextButton3G54" childIdx="37" scaleX="1" containerAlpha="1" scaleY="1" selected="false" flipHorz="false" mask="" minHeight="18.5" flipVert="false" isInteractive="false" premiumMask="0" x="16" mainStacker="false" y="751" blendMode="" rotation="0" locked="false" groupNum="0" maxWidth="-1" minWidth="135.8" maxHeight="-1" link="" imageAspectRatio="-1" taskComponentID="" styleName="" express="true" name="">
+      <params>
+        <paramNode paramName="textFormats">
+          <textFormat bold="false" color="4278229503" font="arial" italic="false" size="13" align="left" formatName="up"/>
+          <textFormat bold="false" color="4278190080" font="arial" italic="false" size="13" align="left" formatName="over"/>
+          <textFormat bold="false" color="4278190080" font="arial" italic="false" size="13" align="left" formatName="down"/>
+        </paramNode>
+        <paramNode paramName="skinSource" src="9ca147d3a002c8c93abfc010e5147b88.skinz" skinTitle="" mediaTitle="Text Only" title="TextBtn_3G" null="535439a419a3b1f264fe484955a82279.wix_ico_mp"/>
+        <paramNode paramName="texts" title="Страницы Facebook"/>
+        <paramNode paramName="buttonParams" height="0" selected="false" iconSize="11" picTitle="Plus" width="0" showIcon="false" iconTextMargin="2" selectable="false" contentMargin="10" align="2" iconSrc="8f2c91ac24f441df20080d4e132db1ab7c28e533.wix_mp"/>
+        <paramNode paramName="contentParams"/>
+        <paramNode paramName="colors"/>
+      </params>
+      <behaviours>
+        <behaviour modifierType="setTemplatesGalleryParams" modifierID="setTemplatesGalleryParams0" title="setTemplatesGallParams" icon_src="daa0760cba142c8c821bd146a29942df.wix_ico_mp">
+          <paramNode paramName="galleryParams" method="setTemplatesGalleryParams" isComponentMethod="true" scopeID="TemplatesGallery0" dataItem="">
+            <paramObj templateSortType="sortByRank" tagsForRanking="cat_Facebook" tagsFilter="cat_Facebook,cat_Promotions"/>
+          </paramNode>
+          <paramNode paramName="params"/>
+        </behaviour>
+      </behaviours>
+    </instance>
+    <instance width="18" height="18" origWidth="80" origHeight="80" category1="vector" category2="Icons" category3="" componentType="picture" title="Germany" icon_src="94e93349531b3406815ea834198433a7.wix_ico_mp" componentTypeRole="none" alpha="1" instanceID="picture74" childIdx="38" scaleX="1" styleName="" containerAlpha="1" scaleY="1" express="true" flipHorz="false" flipVert="false" imageAspectRatio="-1" blendMode="" selected="false" premiumMask="0" name="" locked="false" maxHeight="-1" mask="" maxWidth="-1" minHeight="-1" minWidth="-1" x="966" isInteractive="false" y="60" taskComponentID="" rotation="0" groupNum="0" link="">
+      <params>
+        <paramNode paramName="pic" src="4753267cc84b59ed945ed50237bd3548.wix_mp" cropRotation="0" aspectRatio="stretch" cropX="0" providerName="" cropY="-0.113" cropWidth="18" picTitle="Germany" cropHeight="18.225"/>
+      </params>
+      <behaviours>
+        <behaviour modifierType="changeLanguage" modifierID="changeLanguage0" title="ChangeLanguage" icon_src="">
+          <paramNode paramName="changeLanguageParams" language="de"/>
+        </behaviour>
+      </behaviours>
+    </instance>
+    <instance width="145" height="21" origWidth="135" origHeight="40" componentType="TextButton3G" title="Text Only" icon_src="09333db14c98671e6d31bf739e7c4561.wix_ico_mp" componentTypeRole="none" category1="Button3GSkin" category2="" category3="" alpha="1" instanceID="TextButton3G55" childIdx="39" scaleX="1" containerAlpha="1" scaleY="1" selected="false" flipHorz="false" mask="" minHeight="18.5" flipVert="false" isInteractive="false" premiumMask="0" x="-231" mainStacker="false" y="-90" blendMode="" rotation="0" locked="false" groupNum="0" maxWidth="-1" minWidth="44.35" maxHeight="-1" link="" imageAspectRatio="-1" taskComponentID="" styleName="" express="true" name="">
+      <params>
+        <paramNode paramName="textFormats">
+          <textFormat bold="false" color="4278229503" font="arial" italic="false" size="13" align="left" formatName="up"/>
+          <textFormat bold="false" color="4278190080" font="arial" italic="false" size="13" align="left" formatName="over"/>
+          <textFormat bold="false" color="4278190080" font="arial" italic="false" size="13" align="left" formatName="down"/>
+        </paramNode>
+        <paramNode paramName="skinSource" src="9ca147d3a002c8c93abfc010e5147b88.skinz" skinTitle="" mediaTitle="Text Only" title="TextBtn_3G" null="535439a419a3b1f264fe484955a82279.wix_ico_mp"/>
+        <paramNode paramName="texts" title="Novo"/>
+        <paramNode paramName="buttonParams" height="0" selected="false" iconSize="11" picTitle="Plus" width="0" showIcon="false" iconTextMargin="2" selectable="false" contentMargin="10" align="2" iconSrc="8f2c91ac24f441df20080d4e132db1ab7c28e533.wix_mp"/>
+        <paramNode paramName="contentParams"/>
+        <paramNode paramName="colors"/>
+      </params>
+      <behaviours>
+        <behaviour modifierType="setTemplatesGalleryParams" modifierID="setTemplatesGalleryParams0" title="setTemplatesGallParams" icon_src="daa0760cba142c8c821bd146a29942df.wix_ico_mp">
+          <paramNode paramName="galleryParams" method="setTemplatesGalleryParams" isComponentMethod="true" scopeID="TemplatesGallery0" dataItem="">
+            <paramObj templateSortType="sortByRank" tagsForRanking="cat_New" tagsFilter="cat_New"/>
+          </paramNode>
+          <paramNode paramName="params"/>
+        </behaviour>
+      </behaviours>
+    </instance>
+    <instance width="751" height="615" origWidth="200" origHeight="200" componentType="TemplatesGallery" title="templatesGall" icon_src="b6d63931264077205b741f234b2d752a.wix_ico_mp" componentTypeRole="none" category1="Internal" category2="" category3="" maxWidth="1000" maxHeight="1000" minWidth="100" minHeight="100" alpha="1" instanceID="TemplatesGallery0" childIdx="40" blendMode="" locked="false" premiumMask="0" containerAlpha="1" x="244" flipHorz="false" y="235" flipVert="false" mainStacker="false" groupNum="0" scaleY="1" scaleX="1" selected="false" mask="" rotation="0" isInteractive="false" link="" imageAspectRatio="-1" taskComponentID="" styleName="" express="true" name="">
+      <params>
+        <paramNode paramName="colors"/>
+        <paramNode paramName="skinSource" src="76c1999bff5acf15d7ef688c4f1ed2f4.wix_mp" title="templatesGall"/>
+        <paramNode paramName="TemplatesGalleryParams" marginHorz="25" itemHeight="227" templateSortType="sortByRank" marginVert="-33" itemWidth="227" showExpressRibbon="true" openInSameWindow="false" loginFormType="4" searchContY="52" rolloverEasingObj="Back" rolloverEasingFunc="easeOut" pageSelectorX="30" emptyMsgY="7" sortingY="30" userId="" searchContVisible="true" searchContWidth="190" needsLogin="false" searchContX="0" emptyMsgX="0" listenToSaveComMsg="true" pageSelectorHeight="26" rolloverGrow="1.4" pageSelectorY="0" pageSelectorScale="1" sortingX="0" pageSelectorWidth="105.6" searchContScale="1" tagsForRanking="cat_all" searchContHeight="36" pageSelectorVisible="true" rolloverTime="800" tagsFilter="cat_all,cat_Promotions" displayerSymbol="createGallItm" selectedLanguage="en" actionOnThumbClick="openTemplatesViewer"/>
+      </params>
+    </instance>
+    <instance width="1002" height="856" origWidth="400" origHeight="300" componentType="viewStack" title="Mini Page" icon_src="797aaeb1abb16a1de52dbc69243494f0.wix_ico_mp" componentTypeRole="none" category1="MiniSite" category2="pageSlideShow" category3="pageGallery" maxWidth="1500" maxHeight="1200" minWidth="100" minHeight="80" alpha="1" instanceID="viewStack0" childIdx="41" x="-0.05" y="36.2" selected="false" rotation="0" blendMode="" scaleX="1" containerAlpha="1" locked="false" scaleY="1" flipHorz="false" flipVert="false" mask="" mainStacker="false" groupNum="0" premiumMask="0" isInteractive="false" link="" imageAspectRatio="-1" taskComponentID="" styleName="" undoFrontIdx="-1" express="true" name="">
+      <params>
+        <paramNode paramName="vStack" currentState="Page 1" playDuration="3000" shuffle="false" autoPlay="false"/>
+        <paramNode paramName="vStackView" displayerType="childdiv" autoPlayTime="{vStack.playDuration}" editItemSource="true" autoPlay="{vStack.autoPlay}" displayerSymbol="displayer" isMainStacker="true">
+          <itemHolder holderPath="this.externalSlides"/>
+          <states multipleSelection="false" over="focus" selected="" front="focus" disableFrontSetByDisplayer="true" bubbleToItemSource="true" displayFront="false" down="focus" unselected="idle" up="idle"/>
+        </paramNode>
+        <paramNode paramName="colors"/>
+      </params>
+      <childCompsGroup groupName="externalSlides">
+        <childComps listName="Page 1" listTitle="Flash websites gallery" isHidden="false">
+          <instance width="56" height="98" origWidth="200" origHeight="200" componentType="picture" title="getting started" icon_src="1161e26603a7b2d5cdab357382eadd80.wix_ico_mp" componentTypeRole="" category1="" category2="" category3="" alpha="1" instanceID="picture31" childIdx="0" scaleX="1" scaleY="1" maxWidth="-1" x="653" y="37" maxHeight="-1" flipVert="false" premiumMask="0" containerAlpha="1" mainStacker="false" minWidth="-1" isInteractive="false" minHeight="-1" groupNum="0" mask="" flipHorz="false" rotation="0" selected="false" blendMode="MULTIPLY" locked="false" link="" imageAspectRatio="-1" taskComponentID="" styleName="" express="true" name="">
+            <params>
+              <paramNode paramName="pic" src="8de6d5ef31977264281b9db2352dfa6f.wix_mpf" cropRotation="0" aspectRatio="cropsimple" cropX="-0.307" providerName="" cropY="0" cropWidth="56.614" picTitle="getting started" cropHeight="98"/>
+            </params>
+            <effects>
+              <effect modifierType="flashBlend" modifierID="flashBlend0" title="Blend" icon_src="fba22ad7d4fc1925987f970957b263e1.wix_ico_mp">
+                <paramNode paramName="blendMode" value="MULTIPLY" effectName="propertyChange" propertyName="blendMode"/>
+              </effect>
+              <effect modifierType="flashAdjustColor" modifierID="flashAdjustColor0" title="Adjust Color" icon_src="a3fd405d414b1730e8c19bfb54544383.wix_ico_mp">
+                <paramNode paramName="colorMatrixEffect" hue="14" GR="-0.0054071489696755" contrast="9" brightness="-21" BG="0.13570247785261813" aOffset="0" GB="-0.10898882431678701" BB="1.274393119053551" RG="-0.31742061951209793" AG="0" AR="0" GG="1.2243959732864627" RR="1.1526807229137301" BA="0" gOffset="-27.985" rOffset="-27.985" AA="1" RA="0" GA="0" AB="0" bOffset="-27.985" RB="0.27473989659836767" saturation="6" effectName="color" BR="-0.30009559690616916"/>
+              </effect>
+            </effects>
+          </instance>
+          <instance componentType="paraText" x="710" flipHorz="false" y="58" groupNum="0" origWidth="144" alpha="1" scaleX="1" skewX="0" scaleY="1" width="192" skewY="0" mask="none" blendMode="NORMAL" rotation="0" height="29" containerAlpha="1" selected="false" origHeight="32" flipVert="false" instanceID="paraText11" title="text" icon_src="080bf4ed64e4f01ede590089f2881447.wix_ico_mp" componentTypeRole="none" category1="" locked="false" category2="" category3="" maxHeight="-1" minWidth="-1" minHeight="-1" maxWidth="-1" childIdx="1" mainStacker="false" premiumMask="0" isInteractive="false" link="" imageAspectRatio="-1" taskComponentID="" styleName="" express="true" name="">
+            <params>
+              <paramNode paramName="text" size="32" color="0x000000" sharpness="-117" wrap="true" thickness="61" width="341.65000000000003" multiLine="true" drawFrame="false" editable="false" embed="true" bold="false" height="57.75" fieldType="paragraph" font="Comic Sans Ms" italics="false" autoSize="left" simpleText="" selectable="true"><![CDATA[<P ALIGN="LEFT"><FONT FACE="Arial" SIZE="11" COLOR="#666666" LETTERSPACING="0.6" KERNING="1">Это видео поможет Вам шаг за шагом освоить работу с Wix</FONT></P>]]></paramNode>
+            </params>
+          </instance>
+          <instance componentType="titleText" origHeight="18" x="708.95" skewY="0" y="41.2" selected="false" containerAlpha="1" alpha="1" scaleX="1" flipHorz="false" scaleY="1" width="163" flipVert="false" mask="none" blendMode="NORMAL" rotation="0" height="19" skewX="0" origWidth="96" groupNum="0" instanceID="titleText19" title="Arial" icon_src="b020c59af985cc9e267030f1bd553fdc.wix_ico_mp" componentTypeRole="none" maxWidth="-1" locked="false" maxHeight="-1" minWidth="-1" minHeight="-1" category1="" category2="" category3="" childIdx="2" mainStacker="false" premiumMask="0" isInteractive="false" link="" imageAspectRatio="-1" taskComponentID="" styleName="" express="true" name="">
+            <params>
+              <paramNode paramName="text" size="42" color="0x000000" drawFrame="false" txtScaleY="1.2545846033659902" thickness="0" width="396.3882587297869" multiLine="true" sharpness="0" bold="false" txtScaleX="1.28758969498132" embed="true" editable="false" height="130.70000000000005" fieldType="title" font="Cenobyte" italics="false" autoSize="left" simpleText="" selectable="true"><![CDATA[<P ALIGN="LEFT"><FONT FACE="Arial" SIZE="10" COLOR="#666666" LETTERSPACING="-0.3" KERNING="0"><B>2-минутный видео-ролик</B></FONT></P>]]></paramNode>
+            </params>
+          </instance>
+          <instance width="244" height="61" origWidth="60" origHeight="60" componentType="basicShape" title="Square" icon_src="75d1ea92fef7d157a5edaeef87b8d8c80e61a18d.wix_ico_mp" componentTypeRole="none" category1="basic shape" category2="" category3="basic shape" alpha="1" instanceID="basicShape23" childIdx="3" maxWidth="-1" groupNum="0" maxHeight="-1" mask="" scaleX="1" premiumMask="0" blendMode="" containerAlpha="1" link="STATE[*val*]viewStack0[*val*]Page 2" flipVert="false" isInteractive="false" y="33.2" minWidth="-1" scaleY="1" flipHorz="false" rotation="0" minHeight="-1" x="652.95" mainStacker="false" locked="false" selected="false" imageAspectRatio="-1" taskComponentID="" styleName="" express="true" name="">
+            <params>
+              <paramNode paramName="shape" src="75d1ea92fef7d157a5edaeef87b8d8c80e61a18d.wix_mp" autoSize="true" shapeTitle="Select shape" aspectRatio="stretch" title="Square"/>
+              <paramNode paramName="stroke0" id="stroke0" color="#48ffffff" strokeWidth="0"/>
+              <paramNode paramName="fill0" id="fill0" color="0x1019aff" absolute="false" fillType="solid"/>
+            </params>
+          </instance>
+        </childComps>
+        <childComps listName="Page 2" listTitle="How to make a website" isHidden="false">
+          <instance width="991" height="851" origWidth="200" origHeight="200" componentType="picture" title="bg getting started" icon_src="1161e26603a7b2d5cdab357382eadd80.wix_ico_mp" componentTypeRole="none" category1="" category2="" category3="" alpha="1" instanceID="picture32" childIdx="0" mainStacker="false" maxWidth="-1" minWidth="-1" x="5" mask="" y="3" minHeight="-1" rotation="0" groupNum="0" blendMode="" locked="false" isInteractive="false" selected="false" scaleX="1" scaleY="1" containerAlpha="1" flipHorz="false" premiumMask="0" flipVert="false" maxHeight="-1" link="" imageAspectRatio="-1" taskComponentID="" styleName="" express="true" name="">
+            <params>
+              <paramNode paramName="pic" src="02b7c2bf0b09530c25fa0dc2aec00a4a.wix_mpf" cropRotation="0" aspectRatio="stretch" cropX="-167.273" providerName="" cropY="0" cropWidth="1325.545" picTitle="bg getting started" cropHeight="851"/>
+            </params>
+          </instance>
+          <instance width="178" height="78" origWidth="500" origHeight="500" componentType="area" title="Simple" icon_src="82df8dda20ef38cc7ddd8f23bd740c8c.wix_ico_mp" componentTypeRole="none" category1="" category2="" category3="" minWidth="50" minHeight="50" alpha="1" instanceID="area0" childIdx="1" mask="" groupNum="0" rotation="0" selected="false" x="689" y="497" blendMode="" locked="false" scaleX="1" scaleY="1" containerAlpha="1" flipHorz="false" maxWidth="-1" flipVert="false" maxHeight="-1" mainStacker="false" premiumMask="0" isInteractive="false" link="" imageAspectRatio="-1" taskComponentID="" styleName="" express="true" name="">
+            <params>
+              <paramNode paramName="areaParams"/>
+              <paramNode paramName="skinSource" src="a6755836df1a1be914d40a34a405e4f5.skinz" skinTitle="" title="Area" picTitle="Simple" null="24d298e580cce3e6fb07b7c8c622a664.wix_ico_mp"/>
+              <paramNode paramName="colors">
+                <fill sizeFactorY="1" color="0x1ffffff" cx="0" absolute="false" id="fill0" focalPointRatio="0" groupName="Background" cy="0" fillType="solid" rotation="0" spreadMethod="reflect" sizeFactorX="1" interpolationMethod="rgb"/>
+                <fill sizeFactorY="1" color="0x1000000" cx="0" absolute="false" id="fill0" focalPointRatio="0" groupName="Outline" cy="0" fillType="solid" rotation="0" spreadMethod="reflect" sizeFactorX="1" interpolationMethod="rgb"/>
+              </paramNode>
+            </params>
+            <childComps listName="areaContent">
+              <instance width="164" height="57" origWidth="148" origHeight="35" componentType="TextButton3G" title="BtnArrow" icon_src="" componentTypeRole="none" category1="" category2="" category3="Internal" alpha="1" instanceID="TextButton3G21" childIdx="0" mainStacker="false" maxWidth="-1" minWidth="142.8" x="-18" mask="" y="11" minHeight="23.35" rotation="0" groupNum="0" blendMode="" locked="false" isInteractive="false" selected="false" scaleX="1" scaleY="1" containerAlpha="1" flipHorz="false" premiumMask="0" flipVert="false" maxHeight="-1" link="STATE[*val*]viewStack0[*val*]Page 1" imageAspectRatio="-1" taskComponentID="" styleName="" express="true" name="">
+                <params>
+                  <paramNode paramName="textFormats">
+                    <textFormat bold="true" color="4294967295" font="arial" italic="false" size="12" align="left" formatName="up"/>
+                    <textFormat bold="true" color="4294967295" font="arial" italic="false" size="12" align="left" formatName="over"/>
+                    <textFormat bold="true" color="4294967295" font="arial" italic="false" size="12" align="left" formatName="down"/>
+                  </paramNode>
+                  <paramNode paramName="skinSource" src="4251aa0c9dffc07b5988b67434de3034.skinz" title="BtnArrow"/>
+                  <paramNode paramName="texts" title="НАЧНИТЕ СОЗДАВАТЬ"/>
+                  <paramNode paramName="buttonParams" height="0" selected="false" iconSize="18" width="0" showIcon="false" iconTextMargin="17" selectable="false" contentMargin="8" align="6" iconSrc="0d5ab07587f3a61ce66a461f07db6a03c63f3b69.wix_mp"/>
+                  <paramNode paramName="contentParams"/>
+                  <paramNode paramName="colors">
+                    <fill sizeFactorY="1" color="0xff00d117" cx="0" absolute="false" id="fill0" focalPointRatio="0" groupName="BG Click" cy="0" fillType="solid" rotation="0" spreadMethod="reflect" sizeFactorX="1" interpolationMethod="rgb"/>
+                    <fill sizeFactorY="1" color="0xff999999" cx="0" absolute="false" id="fill0" focalPointRatio="0" groupName="BG" cy="0" fillType="solid" rotation="0" spreadMethod="reflect" sizeFactorX="1" interpolationMethod="rgb"/>
+                    <fill sizeFactorY="1" color="0xff00d117" cx="0" absolute="false" id="fill0" focalPointRatio="0" groupName="BG Mouse Over" cy="0" fillType="solid" rotation="0" spreadMethod="reflect" sizeFactorX="1" interpolationMethod="rgb"/>
+                  </paramNode>
+                </params>
+              </instance>
+            </childComps>
+          </instance>
+          <instance width="164" height="53" origWidth="200" origHeight="200" componentType="picture" title="wix logo gs" icon_src="1161e26603a7b2d5cdab357382eadd80.wix_ico_mp" componentTypeRole="" category1="" category2="" category3="" alpha="1" instanceID="picture33" childIdx="2" mainStacker="false" maxWidth="-1" minWidth="-1" x="96" mask="" y="41" minHeight="-1" rotation="0" groupNum="0" blendMode="" locked="false" isInteractive="false" selected="false" scaleX="1" scaleY="1" containerAlpha="1" flipHorz="false" premiumMask="0" flipVert="false" maxHeight="-1" link="" imageAspectRatio="-1" taskComponentID="" styleName="" express="true" name="">
+            <params>
+              <paramNode paramName="pic" src="b00a486107d4619740a6dd8795e990e8.wix_mpf" cropRotation="0" aspectRatio="cropsimple" cropX="-1.285" providerName="" cropY="0" cropWidth="166.571" picTitle="wix logo gs" cropHeight="53"/>
+            </params>
+          </instance>
+          <instance componentType="titleText" origHeight="43" x="263" skewY="0" y="34" selected="false" containerAlpha="1" alpha="1" scaleX="1" flipHorz="false" scaleY="1" width="237" flipVert="false" mask="none" blendMode="NORMAL" rotation="0" height="43" skewX="0" origWidth="334" groupNum="0" instanceID="titleText21" title="Arial" icon_src="b020c59af985cc9e267030f1bd553fdc.wix_ico_mp" componentTypeRole="none" childIdx="3" mainStacker="false" maxWidth="-1" minWidth="-1" minHeight="-1" locked="false" category1="" category2="" category3="" isInteractive="false" premiumMask="0" maxHeight="-1" link="" imageAspectRatio="-1" taskComponentID="" styleName="" express="true" name="">
+            <params>
+              <paramNode paramName="text" size="42" color="0x000000" drawFrame="false" txtScaleY="2.1731046367430786" thickness="0" width="396.3882587297869" multiLine="true" sharpness="0" bold="false" txtScaleX="2.1095581061332154" embed="true" editable="false" height="130.70000000000005" fieldType="title" font="Cenobyte" italics="false" autoSize="left" simpleText="" selectable="true"><![CDATA[<P ALIGN="LEFT"><FONT FACE="Arial" SIZE="14" COLOR="#04A9FF" LETTERSPACING="0" KERNING="0"><B>ПЕРВЫЕ ШАГИ</B></FONT></P>]]></paramNode>
+            </params>
+          </instance>
+          <instance componentType="titleText" origHeight="33" x="267" skewY="0" y="68" selected="false" containerAlpha="1" alpha="1" scaleX="1" flipHorz="false" scaleY="1" width="136" flipVert="false" mask="none" blendMode="NORMAL" rotation="0" height="32" skewX="0" origWidth="188" groupNum="0" instanceID="titleText20" title="Arial" icon_src="b020c59af985cc9e267030f1bd553fdc.wix_ico_mp" componentTypeRole="none" childIdx="4" mainStacker="false" maxWidth="-1" minWidth="-1" minHeight="-1" locked="false" category1="" category2="" category3="" isInteractive="false" premiumMask="0" maxHeight="-1" link="" imageAspectRatio="-1" taskComponentID="" styleName="" express="true" name="">
+            <params>
+              <paramNode paramName="text" size="42" color="0x000000" drawFrame="false" txtScaleY="1.035805927634831" thickness="0" width="396.3882587297869" multiLine="true" sharpness="0" bold="false" txtScaleX="0.9964910224714807" embed="true" editable="false" height="130.70000000000005" fieldType="title" font="Cenobyte" italics="false" autoSize="left" simpleText="" selectable="true"><![CDATA[<P ALIGN="LEFT"><FONT FACE="Arial" SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0">С WIX.COM</FONT></P>]]></paramNode>
+            </params>
+          </instance>
+          <instance componentType="titleText" origHeight="161" x="176" skewY="0" y="588" selected="false" containerAlpha="1" alpha="1" scaleX="1" flipHorz="false" scaleY="1" width="626" flipVert="false" mask="none" blendMode="NORMAL" rotation="0" height="179" skewX="0" origWidth="709" groupNum="0" instanceID="titleText23" title="Arial" icon_src="b020c59af985cc9e267030f1bd553fdc.wix_ico_mp" componentTypeRole="none" childIdx="5" mainStacker="false" maxWidth="-1" minWidth="-1" minHeight="-1" locked="false" category1="" category2="" category3="" isInteractive="false" premiumMask="0" maxHeight="-1" link="" imageAspectRatio="-1" taskComponentID="" styleName="" express="true" name="">
+            <params>
+              <paramNode paramName="text" size="42" color="0x000000" drawFrame="false" txtScaleY="1.0220478595134135" thickness="0" width="396.3882587297869" multiLine="true" sharpness="0" bold="false" txtScaleX="1.0107796081451534" embed="true" editable="false" height="130.70000000000005" fieldType="title" font="Cenobyte" italics="false" autoSize="left" simpleText="" selectable="false"><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Arial" SIZE="14" COLOR="#000000" LETTERSPACING="0" KERNING="0">Добро пожаловать в видео для начинающих. В этом видео мы последовательно познакомим </FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Arial" SIZE="14" COLOR="#000000" LETTERSPACING="0" KERNING="0">Вас с каждым этапом создания веб-сайта с помощью Wix.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Arial" SIZE="14" COLOR="#000000" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="3"><P ALIGN="LEFT"><FONT FACE="Arial" SIZE="14" COLOR="#000000" LETTERSPACING="0" KERNING="0">      <B>Создать:</B> Выберите шаблон и нажмите &quot;редактировать&quot;, чтобы запустить редактор *</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="3"><P ALIGN="LEFT"><FONT FACE="Arial" SIZE="14" COLOR="#000000" LETTERSPACING="0" KERNING="0">      <B>Настройка:</B> Шаблон можно легко изменить под свой вкус</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="3"><P ALIGN="LEFT"><FONT FACE="Arial" SIZE="14" COLOR="#000000" LETTERSPACING="0" KERNING="0">     <B> Публиковать:</B> Опубликуйте созданный Вами сайт в Интернете в режиме онлайн </FONT></P></TEXTFORMAT><P ALIGN="LEFT"><FONT FACE="Arial" SIZE="14" COLOR="#000000" LETTERSPACING="0" KERNING="0"></FONT></P><P ALIGN="LEFT"><FONT FACE="Arial" SIZE="14" COLOR="#000000" LETTERSPACING="0" KERNING="0">Итак, приступим  нажмите кнопку &quot;Начать создавать&quot;</FONT></P><P ALIGN="LEFT"><FONT FACE="Arial" SIZE="14" COLOR="#000000" LETTERSPACING="0" KERNING="0"></FONT></P><P ALIGN="LEFT"><FONT FACE="Arial" SIZE="14" COLOR="#000000" LETTERSPACING="0" KERNING="0">* Если Вы хотите начать с нуля, нажмите &quot;Пустой веб-сайт&quot;</FONT></P>]]></paramNode>
+            </params>
+          </instance>
+          <instance width="14" height="14" origWidth="60" origHeight="60" componentType="basicShape" title="Square" icon_src="75d1ea92fef7d157a5edaeef87b8d8c80e61a18d.wix_ico_mp" componentTypeRole="none" category1="basic shape" category2="" category3="basic shape" alpha="1" instanceID="basicShape25" childIdx="6" mainStacker="false" maxWidth="-1" minWidth="-1" x="181" mask="" y="645" minHeight="-1" rotation="0" groupNum="0" link="" blendMode="" locked="false" isInteractive="false" selected="false" scaleX="1" scaleY="1" containerAlpha="1" flipHorz="false" premiumMask="0" flipVert="false" maxHeight="-1" imageAspectRatio="-1" taskComponentID="" styleName="" express="true" name="">
+            <params>
+              <paramNode paramName="shape" src="75d1ea92fef7d157a5edaeef87b8d8c80e61a18d.wix_mp" autoSize="true" shapeTitle="Select shape" aspectRatio="stretch" title="Square"/>
+              <paramNode paramName="stroke0" id="stroke0" color="#48ffffff" strokeWidth="0"/>
+              <paramNode paramName="fill0" id="fill0" color="0xff04a9ff" absolute="false" fillType="solid"/>
+            </params>
+          </instance>
+          <instance width="14" height="14" origWidth="60" origHeight="60" componentType="basicShape" title="Square" icon_src="75d1ea92fef7d157a5edaeef87b8d8c80e61a18d.wix_ico_mp" componentTypeRole="none" category1="basic shape" category2="" category3="basic shape" alpha="1" instanceID="basicShape26" childIdx="7" mainStacker="false" maxWidth="-1" minWidth="-1" x="181" mask="" y="682" minHeight="-1" rotation="0" groupNum="0" link="" blendMode="" locked="false" isInteractive="false" selected="false" scaleX="1" scaleY="1" containerAlpha="1" flipHorz="false" premiumMask="0" flipVert="false" maxHeight="-1" imageAspectRatio="-1" taskComponentID="" styleName="" express="true" name="">
+            <params>
+              <paramNode paramName="shape" src="75d1ea92fef7d157a5edaeef87b8d8c80e61a18d.wix_mp" autoSize="true" shapeTitle="Select shape" aspectRatio="stretch" title="Square"/>
+              <paramNode paramName="stroke0" id="stroke0" color="#48ffffff" strokeWidth="0"/>
+              <paramNode paramName="fill0" id="fill0" color="0xff00d918" absolute="false" fillType="solid"/>
+            </params>
+          </instance>
+          <instance width="14" height="14" origWidth="60" origHeight="60" componentType="basicShape" title="Square" icon_src="75d1ea92fef7d157a5edaeef87b8d8c80e61a18d.wix_ico_mp" componentTypeRole="none" category1="basic shape" category2="" category3="basic shape" alpha="1" instanceID="basicShape27" childIdx="8" mainStacker="false" maxWidth="-1" minWidth="-1" x="181" mask="" y="663" minHeight="-1" rotation="0" groupNum="0" link="" blendMode="" locked="false" isInteractive="false" selected="false" scaleX="1" scaleY="1" containerAlpha="1" flipHorz="false" premiumMask="0" flipVert="false" maxHeight="-1" imageAspectRatio="-1" taskComponentID="" styleName="" express="true" name="">
+            <params>
+              <paramNode paramName="shape" src="75d1ea92fef7d157a5edaeef87b8d8c80e61a18d.wix_mp" autoSize="true" shapeTitle="Select shape" aspectRatio="stretch" title="Square"/>
+              <paramNode paramName="stroke0" id="stroke0" color="#48ffffff" strokeWidth="0"/>
+              <paramNode paramName="fill0" id="fill0" color="0xffe417b4" absolute="false" fillType="solid"/>
+            </params>
+          </instance>
+          <instance width="688" height="387" origWidth="400" origHeight="300" componentType="videoPlaylist" title="Rollover" icon_src="95bf663823e7f02378b40ac626c3b89f.wix_ico_mp" componentTypeRole="none" category1="" category2="" category3="" maxWidth="1000" maxHeight="1000" minWidth="250" minHeight="100" alpha="1" instanceID="videoPlaylist0" childIdx="9" scaleX="1" isInteractive="false" link="" groupNum="0" imageAspectRatio="-1" containerAlpha="1" mask="" scaleY="1" flipVert="false" flipHorz="false" x="178" blendMode="" y="110" premiumMask="0" selected="false" locked="false" rotation="0" taskComponentID="" styleName="" express="true" name="">
+            <params>
+              <paramNode paramName="mediaEntry" src="" mediaTitle="Select Video" volume="1" mediaType="" autoStart="false" loop="false" panning="0" iconSrc=""/>
+              <paramNode paramName="videoList" id="stackSlides">
+                <item totalItemsForGivenSearch="1">
+                  <itemXML/>
+                  <searchExpression>
+                    <search/>
+                  </searchExpression>
+                  <subitems>
+                    <item id="video 1" compType="video" sourceType="videoYoutube" loadURL="http://www.youtube.com/v/Cs1XSq-qxmA" iconLoadURL="http://i.ytimg.com/vi/Cs1XSq-qxmA/0.jpg" sourceName="youtube" imageAspectRatio="1.3333333333333333">
+                      <itemXML/>
+                      <searchExpression>
+                        <search/>
+                      </searchExpression>
+                      <subitems/>
+                      <mediaList/>
+                      <options/>
+                    </item>
+                  </subitems>
+                  <mediaList/>
+                  <options/>
+                </item>
+              </paramNode>
+              <paramNode paramName="colors">
+                <fill id="fill0" focalPointRatio="0" spreadMethod="reflect" cx="0" sizeFactorX="1" sizeFactorY="1" fillType="solid" rotation="0" color="0x80000000" groupName="Background" cy="0" interpolationMethod="rgb"/>
+                <fill id="fill0" focalPointRatio="0" spreadMethod="reflect" cx="0" sizeFactorX="1" sizeFactorY="1" fillType="solid" rotation="0" color="0xffffffff" groupName="Controls" cy="0" interpolationMethod="rgb"/>
+                <fill id="fill0" focalPointRatio="0" spreadMethod="reflect" cx="0" sizeFactorX="1" sizeFactorY="1" fillType="solid" rotation="0" color="0xff03acef" groupName="Slider Fill" cy="0" interpolationMethod="rgb"/>
+                <fill id="fill0" focalPointRatio="0" spreadMethod="reflect" cx="0" sizeFactorX="1" sizeFactorY="1" fillType="solid" rotation="0" color="0xff03acef" groupName="Controls Rollover" cy="0" interpolationMethod="rgb"/>
+              </paramNode>
+              <paramNode paramName="videoListView" autoPlayTime="1" displayIcon="true" isMainStacker="false" displayerType="itemDisplayer" editItemSource="true" autoPlay="false" displayerSymbol="displayer">
+                <data type="itemHolder" holderPath="this.stackSlides"/>
+                <states multipleSelection="false" over="focus" selected="" bubbleToItemSource="false" displayFront="false" unselected="idle" up="idle"/>
+                <displayerParams showNavigationButtons="true" showItemInfo="full"/>
+              </paramNode>
+              <paramNode paramName="skinSource" src="8e873dbf9c3a7639f3971fea85694d4c.skinz" title="vp_Rollover"/>
+              <paramNode paramName="videoPlaylistParams" prevNextBtnsVisibility="true" volume="1" bestVideoFormatFlag="true" showVideoTitle="true" autoStart="true" loop="false" videoSizeMode="stretch"/>
+            </params>
+          </instance>
+          <instance width="23" height="23" origWidth="41" origHeight="41" category1="vector" category2="Icons" category3="" componentType="picture" title="X" icon_src="857bf153e07b35739c49b450438a1da0.wix_ico_mp" componentTypeRole="none" alpha="1" instanceID="picture68" childIdx="10" isInteractive="false" taskComponentID="" scaleX="1" scaleY="1" x="947" link="STATE[*val*]viewStack0[*val*]Page 1" y="40" mask="" locked="false" flipVert="false" containerAlpha="1" flipHorz="false" rotation="0" minWidth="-1" minHeight="-1" maxHeight="-1" groupNum="0" maxWidth="-1" premiumMask="0" styleName="" imageAspectRatio="-1" blendMode="" selected="false" express="true" name="">
+            <params>
+              <paramNode paramName="pic" src="69f30eae3591abe19ef8ba6493256a35.wix_mp" cropRotation="0" aspectRatio="stretch" cropX="0" providerName="" cropY="0" cropWidth="23" picTitle="X" cropHeight="23"/>
+            </params>
+          </instance>
+        </childComps>
+      </childCompsGroup>
+    </instance>
+    <instance width="1000" height="155" origWidth="1000" origHeight="155" category1="" category2="" category3="" componentType="picture" title="wix-arena" icon_src="ec91fbd6dac0f0688f381793dd0cccc2.wix_ico_mp" componentTypeRole="" alpha="1" instanceID="picture51" childIdx="42" scaleX="1" containerAlpha="1" maxHeight="-1" rotation="0" scaleY="1" groupNum="0" taskComponentID="" premiumMask="0" mask="" minHeight="-1" minWidth="-1" selected="false" y="911" link="" blendMode="" isInteractive="false" flipHorz="false" imageAspectRatio="-1" locked="false" x="-1" maxWidth="-1" flipVert="false" styleName="" express="true" name="">
+      <params>
+        <paramNode paramName="pic" src="ec91fbd6dac0f0688f381793dd0cccc2.wix_mp" cropRotation="0" aspectRatio="stretch" cropX="0" providerName="" cropY="0" cropWidth="1000" picTitle="arena-bg" cropHeight="155"/>
+      </params>
+    </instance>
+    <instance width="15" height="127" origWidth="60" origHeight="60" category1="basic shape" category2="" category3="basic shape" componentType="basicShape" title="Square" icon_src="75d1ea92fef7d157a5edaeef87b8d8c80e61a18d.wix_ico_mp" componentTypeRole="none" alpha="1" instanceID="basicShape41" childIdx="43" flipHorz="false" scaleX="1" selected="false" y="939" x="-4" minWidth="-1" minHeight="-1" maxWidth="-1" flipVert="false" maxHeight="-1" scaleY="1" locked="false" mask="" premiumMask="0" link="" groupNum="0" rotation="0" imageAspectRatio="-1" isInteractive="false" blendMode="" taskComponentID="" containerAlpha="1" styleName="" express="true" name="">
+      <params>
+        <paramNode paramName="shape" src="75d1ea92fef7d157a5edaeef87b8d8c80e61a18d.wix_mp" autoSize="true" shapeTitle="Select shape" aspectRatio="stretch" title="Square"/>
+        <paramNode paramName="stroke0" id="stroke0" color="#48ffffff" strokeWidth="0"/>
+        <paramNode paramName="fill0" id="fill0" color="0xff121212" fillType="solid"/>
+      </params>
+    </instance>
+    <instance width="1024" height="156" origWidth="60" origHeight="60" category1="basic shape" category2="" category3="basic shape" componentType="basicShape" title="Square" icon_src="75d1ea92fef7d157a5edaeef87b8d8c80e61a18d.wix_ico_mp" componentTypeRole="none" alpha="1" instanceID="basicShape42" childIdx="44" minWidth="-1" selected="false" isInteractive="false" minHeight="-1" containerAlpha="1" scaleX="1" mask="" maxHeight="-1" maxWidth="-1" flipVert="false" groupNum="0" scaleY="1" flipHorz="false" imageAspectRatio="-1" x="-8" premiumMask="0" y="908" link="URL[*val*]http://arena.wix.com/find-a-pro[*val*]_blank" blendMode="" rotation="0" locked="false" taskComponentID="" styleName="" express="true" name="">
+      <params>
+        <paramNode paramName="shape" src="75d1ea92fef7d157a5edaeef87b8d8c80e61a18d.wix_mp" autoSize="true" shapeTitle="Select shape" aspectRatio="stretch" title="Square"/>
+        <paramNode paramName="stroke0" id="stroke0" color="#48ffffff" strokeWidth="0"/>
+        <paramNode paramName="fill0" id="fill0" color="0x01ffffff" fillType="solid"/>
+      </params>
+    </instance>
+    <instance width="192" height="50" origWidth="192" origHeight="50" category1="" category2="" category3="" componentType="picture" title="arena_banner_btn" icon_src="3233985a11373321af2bcc5d5256dba2.wix_ico_mp" componentTypeRole="" alpha="1" instanceID="picture69" childIdx="45" blendMode="" scaleX="1" y="986" x="791" link="URL[*val*]http://arena.wix.com/dashboard[*val*]_blank" minWidth="-1" scaleY="1" minHeight="-1" mask="" maxWidth="-1" maxHeight="-1" locked="false" groupNum="0" premiumMask="0" styleName="" imageAspectRatio="-1" rotation="0" taskComponentID="" containerAlpha="1" flipHorz="false" isInteractive="false" flipVert="false" selected="false" express="true" name="">
+      <params>
+        <paramNode paramName="pic" src="3233985a11373321af2bcc5d5256dba2.wix_mp" cropRotation="0" aspectRatio="stretch" cropX="0" providerName="" cropY="0" cropWidth="192" picTitle="arena_banner_btn" cropHeight="50"/>
+      </params>
+    </instance>
+    <instance componentType="groupHolder" instanceID="groupHolder1974827" x="483" y="939" width="323" height="123" childIdx="46" link="" scaleX="1" scaleY="1" imageAspectRatio="-1" selected="false" express="true" alpha="1" styleName="" mask="" taskComponentID="" category1="" groupNum="91163" componentTypeRole="" maxHeight="-1" category2="" origWidth="323" maxWidth="-1" category3="" origHeight="123" rotation="0" isInteractive="false" name="" containerAlpha="1" premiumMask="0" minHeight="-1" flipHorz="false" minWidth="-1" flipVert="false" blendMode="" title="pronew" icon_src="5e53575091780dca57e8be7fa2bf827d.wix_ico_mp" locked="false">
+      <childComps listName="externalWixChildren">
+        <instance componentType="paraText" x="1" flipHorz="false" y="98" groupNum="91163" origWidth="293" alpha="1" scaleX="1" skewX="0" scaleY="1" width="235" skewY="0" mask="none" blendMode="NORMAL" rotation="0" height="25" containerAlpha="1" selected="false" origHeight="164" flipVert="false" instanceID="paraText23" category3="" icon_src="627ee765e88e364ea48e2e16f3bef32a.wix_ico_mp" title="Simple Text Box" maxWidth="-1" maxHeight="-1" minWidth="-1" locked="false" minHeight="-1" category1="" componentTypeRole="none" category2="" childIdx="0" mainStacker="false" link="" taskComponentID="" premiumMask="0" styleName="" imageAspectRatio="-1" isInteractive="false" express="true" name="">
+          <params>
+            <paramNode paramName="text" size="32" color="0x000000" sharpness="-117" wrap="true" thickness="61" width="0" multiLine="true" drawFrame="false" editable="false" embed="true" bold="false" height="0" fieldType="paragraph" font="Comic Sans Ms" italics="false" autoSize="left" simpleText="" selectable="true"><![CDATA[<P ALIGN="LEFT"><FONT FACE="Arial" SIZE="18" COLOR="#0099FF" LETTERSPACING="-0.4" KERNING="1"><B>НАЧНИТЕ работать с Pro</B></FONT></P>]]></paramNode>
+          </params>
+        </instance>
+        <instance componentType="paraText" x="2" flipHorz="false" y="38" groupNum="91163" origWidth="293" alpha="1" scaleX="1" skewX="0" scaleY="1" width="321" skewY="0" mask="none" blendMode="NORMAL" rotation="0" height="58" containerAlpha="1" selected="false" origHeight="164" flipVert="false" instanceID="paraText24" category3="" icon_src="627ee765e88e364ea48e2e16f3bef32a.wix_ico_mp" title="Simple Text Box" maxWidth="-1" maxHeight="-1" minWidth="-1" locked="false" minHeight="-1" category1="" componentTypeRole="" category2="" childIdx="1" mainStacker="false" link="" premiumMask="0" styleName="" imageAspectRatio="-1" taskComponentID="" isInteractive="false" express="true" name="">
+          <params>
+            <paramNode paramName="text" size="32" color="0x000000" sharpness="-117" wrap="true" thickness="61" width="0" multiLine="true" drawFrame="false" editable="false" embed="true" bold="false" height="0" fieldType="paragraph" font="Comic Sans Ms" italics="false" autoSize="left" simpleText="" selectable="true"><![CDATA[<P ALIGN="LEFT"><FONT FACE="Arial" SIZE="12" COLOR="#FFFFFF" LETTERSPACING="-0.2" KERNING="1">Вам необходима помощь в разработке эксклюзивного веб-сайта?</FONT></P><P ALIGN="LEFT"><FONT FACE="Arial" SIZE="12" COLOR="#FFFFFF" LETTERSPACING="-0.2" KERNING="1">Мы с удовольствием предоставляем Вам возможность обратиться к профессионалам!</FONT></P>]]></paramNode>
+          </params>
+        </instance>
+        <instance width="58" height="22" origWidth="57" origHeight="22" category1="" category2="" category3="" componentType="picture" title="wix-logo" icon_src="cb10a54c7a652d358e803db82c521db0.wix_ico_mp" componentTypeRole="" alpha="1" instanceID="picture99" childIdx="2" containerAlpha="1" scaleX="1" selected="false" scaleY="1" x="178" flipVert="false" minWidth="-1" minHeight="-1" flipHorz="false" maxWidth="-1" y="11" maxHeight="-1" mask="" groupNum="91163" link="" premiumMask="0" locked="false" rotation="0" taskComponentID="" imageAspectRatio="-1" isInteractive="false" blendMode="" styleName="" express="true" name="">
+          <params>
+            <paramNode paramName="pic" src="cb10a54c7a652d358e803db82c521db0.wix_mp" cropRotation="0" aspectRatio="cropsimple" cropX="0" providerName="" cropY="-0.193" cropWidth="58" picTitle="wix_logo" cropHeight="22.386"/>
+          </params>
+        </instance>
+        <instance componentType="paraText" x="0" flipHorz="false" y="0" groupNum="91163" origWidth="293" alpha="1" scaleX="1" skewX="0" scaleY="1" width="192" skewY="0" mask="none" blendMode="NORMAL" rotation="0" height="41" containerAlpha="1" selected="false" origHeight="164" flipVert="false" instanceID="paraText25" category3="" icon_src="627ee765e88e364ea48e2e16f3bef32a.wix_ico_mp" title="Simple Text Box" maxWidth="-1" maxHeight="-1" minWidth="-1" locked="false" minHeight="-1" category1="" componentTypeRole="" category2="" childIdx="3" mainStacker="false" link="" taskComponentID="" premiumMask="0" styleName="" imageAspectRatio="-1" isInteractive="false" express="true" name="">
+          <params>
+            <paramNode paramName="text" size="32" color="0x000000" sharpness="-117" wrap="true" thickness="61" width="0" multiLine="true" drawFrame="false" editable="false" embed="true" bold="false" height="0" fieldType="paragraph" font="Comic Sans Ms" italics="false" autoSize="left" simpleText="" selectable="true"><![CDATA[<P ALIGN="LEFT"><FONT FACE="Arial" SIZE="33" COLOR="#0099FF" LETTERSPACING="-1.5" KERNING="0">Справочник<FONT SIZE="29"> </FONT></FONT></P>]]></paramNode>
+          </params>
+        </instance>
+        <instance componentType="paraText" x="239" flipHorz="false" y="1" groupNum="91163" origWidth="293" alpha="1" scaleX="1" skewX="0" scaleY="1" width="75" skewY="0" mask="none" blendMode="NORMAL" rotation="0" height="41" containerAlpha="1" selected="false" origHeight="164" flipVert="false" instanceID="paraText26" category3="" icon_src="627ee765e88e364ea48e2e16f3bef32a.wix_ico_mp" title="Simple Text Box" maxWidth="-1" maxHeight="-1" minWidth="-1" locked="false" minHeight="-1" category1="" componentTypeRole="none" category2="" childIdx="4" mainStacker="false" link="" taskComponentID="" premiumMask="0" styleName="" imageAspectRatio="-1" isInteractive="false" express="true" name="">
+          <params>
+            <paramNode paramName="text" size="32" color="0x000000" sharpness="-117" wrap="true" thickness="61" width="0" multiLine="true" drawFrame="false" editable="false" embed="true" bold="false" height="0" fieldType="paragraph" font="Comic Sans Ms" italics="false" autoSize="left" simpleText="" selectable="true"><![CDATA[<P ALIGN="LEFT"><FONT FACE="Arial" SIZE="33" COLOR="#0099FF" LETTERSPACING="-0.4" KERNING="1"><B>Pro</B></FONT></P>]]></paramNode>
+          </params>
+        </instance>
+      </childComps>
+    </instance>
+    <instance componentType="groupHolder" instanceID="groupHolder1974828" x="329" y="1235" width="339" height="50" childIdx="47" maxWidth="-1" scaleX="1" scaleY="1" blendMode="" selected="false" minHeight="-1" alpha="1" category1="" minWidth="-1" componentTypeRole="" category2="" link="" category3="" taskComponentID="" mask="" origWidth="339" groupNum="121936" origHeight="50" rotation="0" containerAlpha="1" premiumMask="0" flipHorz="false" icon_src="0ac57b595c7e0cac2f70fb8abaef7c65.wix_ico_mp" flipVert="false" name="" isInteractive="false" imageAspectRatio="-1" title="mark" maxHeight="-1" express="true" styleName="" locked="false">
+      <childComps listName="externalWixChildren">
+        <instance componentType="titleText" origHeight="14" x="110" skewY="0" y="14" selected="false" containerAlpha="1" alpha="1" scaleX="1" flipHorz="false" scaleY="1" width="118" flipVert="false" mask="none" blendMode="NORMAL" rotation="0" height="14" skewX="0" origWidth="122" groupNum="121936" instanceID="titleText25" title="Arial" icon_src="b020c59af985cc9e267030f1bd553fdc.wix_ico_mp" componentTypeRole="none" category1="" locked="false" category2="" category3="" maxWidth="-1" maxHeight="-1" minWidth="-1" minHeight="-1" childIdx="0" mainStacker="false" premiumMask="0" isInteractive="false" link="" imageAspectRatio="-1" taskComponentID="" styleName="" express="true" name="">
+          <params>
+            <paramNode paramName="text" size="42" color="0x000000" drawFrame="false" txtScaleY="0.7558182314647017" thickness="61" width="396.3882587297869" multiLine="true" sharpness="-117" bold="false" txtScaleX="0.7325495514256937" embed="true" editable="false" height="130.70000000000005" fieldType="title" font="Cenobyte" italics="false" autoSize="left" simpleText="" selectable="true"><![CDATA[<P ALIGN="LEFT"><FONT FACE="Arial" SIZE="13" COLOR="#9A9A9A" LETTERSPACING="0" KERNING="0">© 2006-2011 Wix.com, Inc.</FONT></P>]]></paramNode>
+          </params>
+        </instance>
+        <instance componentType="titleText" origHeight="14" x="0" skewY="0" y="0" selected="false" containerAlpha="1" alpha="1" scaleX="1" flipHorz="false" scaleY="1" width="336" flipVert="false" mask="none" blendMode="NORMAL" rotation="0" height="14" skewX="0" origWidth="216" groupNum="121936" instanceID="titleText26" title="Arial" icon_src="b020c59af985cc9e267030f1bd553fdc.wix_ico_mp" componentTypeRole="none" category1="" locked="false" category2="" category3="" maxWidth="-1" maxHeight="-1" minWidth="-1" minHeight="-1" childIdx="1" mainStacker="false" premiumMask="0" isInteractive="false" link="" imageAspectRatio="-1" taskComponentID="" styleName="" express="true" name="">
+          <params>
+            <paramNode paramName="text" size="42" color="0x000000" drawFrame="false" txtScaleY="0.7558182314647017" thickness="61" width="396.3882587297869" multiLine="true" sharpness="-117" bold="false" txtScaleX="0.7300883376286165" embed="true" editable="false" height="130.70000000000005" fieldType="title" font="Cenobyte" italics="false" autoSize="left" simpleText="" selectable="true"><![CDATA[<P ALIGN="LEFT"><FONT FACE="Arial" SIZE="13" COLOR="#019AFF" LETTERSPACING="0" KERNING="1">Wix.com гордится тем, что он создан с помощью Wix. Попробуйте Wix и Вы</FONT></P>]]></paramNode>
+          </params>
+        </instance>
+        <instance width="43" height="18" origWidth="200" origHeight="200" componentType="picture" title="footer logo.swf" icon_src="" componentTypeRole="none" category1="" category2="" category3="" alpha="1" instanceID="picture100" x="148" mask="none" y="32" groupNum="121936" rotation="0" skewX="0" skewY="0" flipVert="false" blendMode="NORMAL" containerAlpha="1" scaleX="1" scaleY="1" selected="false" flipHorz="false" locked="false" maxWidth="-1" maxHeight="-1" minWidth="-1" minHeight="-1" childIdx="2" mainStacker="false" premiumMask="0" isInteractive="false" link="" imageAspectRatio="-1" taskComponentID="" styleName="" express="true" name="">
+          <params>
+            <paramNode paramName="pic" src="294b94b0a53ad995bdb408400b74d758.wix_mp" cropRotation="0" aspectRatio="stretch" cropX="-1" providerName="" cropY="0" cropWidth="45" picTitle="footer logo.swf" cropHeight="18"/>
+          </params>
+        </instance>
+      </childComps>
+    </instance>
+    <instance componentType="groupHolder" instanceID="groupHolder1974829" x="190" y="1079" width="645" height="18" childIdx="48" scaleX="1" scaleY="1" maxHeight="-1" selected="false" minHeight="-1" alpha="1" minWidth="-1" mask="" link="" category1="" taskComponentID="" componentTypeRole="" category2="" category3="" rotation="0" origWidth="645" groupNum="32647" origHeight="18" styleName="" containerAlpha="1" icon_src="9860fd12b2f74e1e3dfdab708425d16e.wix_ico_mp" title="linksfooter" flipVert="false" isInteractive="false" imageAspectRatio="-1" premiumMask="0" blendMode="" flipHorz="false" express="true" maxWidth="-1" name="" locked="false">
+      <childComps listName="externalWixChildren">
+        <instance width="18" height="18" origWidth="197" origHeight="29" componentType="picture" title="Line Solid" icon_src="a2bb8a481d24cf236d228cfb9ba0d6f7.wix_ico_mp" componentTypeRole="none" category1="Line" category2="" category3="parts" alpha="1" instanceID="picture101" x="346" mask="none" y="18" groupNum="32647" rotation="-90" skewX="0" skewY="0" flipVert="false" blendMode="NORMAL" containerAlpha="1" scaleX="1" scaleY="1" selected="false" flipHorz="false" locked="false" maxWidth="-1" maxHeight="-1" minWidth="-1" minHeight="-1" childIdx="0" mainStacker="false" premiumMask="0" isInteractive="false" link="" imageAspectRatio="-1" taskComponentID="" styleName="" name="" express="true">
+          <params>
+            <paramNode paramName="pic" src="5a6dd211d5dcad23a6fb7a12e2964003.wix_mp" cropRotation="0" aspectRatio="stretch" cropX="-51.827" providerName="" cropY="0" cropWidth="121.655" picTitle="Line Solid" cropHeight="18"/>
+          </params>
+        </instance>
+        <instance width="18" height="18" origWidth="197" origHeight="29" componentType="picture" title="Line Solid" icon_src="a2bb8a481d24cf236d228cfb9ba0d6f7.wix_ico_mp" componentTypeRole="none" category1="Line" category2="" category3="parts" alpha="1" instanceID="picture102" x="417" mask="none" y="18" groupNum="32647" rotation="-90" skewX="0" skewY="0" flipVert="false" blendMode="NORMAL" containerAlpha="1" scaleX="1" scaleY="1" selected="false" flipHorz="false" locked="false" maxWidth="-1" maxHeight="-1" minWidth="-1" minHeight="-1" childIdx="1" mainStacker="false" premiumMask="0" isInteractive="false" link="" imageAspectRatio="-1" taskComponentID="" styleName="" name="" express="true">
+          <params>
+            <paramNode paramName="pic" src="5a6dd211d5dcad23a6fb7a12e2964003.wix_mp" cropRotation="0" aspectRatio="stretch" cropX="-51.827" providerName="" cropY="0" cropWidth="121.655" picTitle="Line Solid" cropHeight="18"/>
+          </params>
+        </instance>
+        <instance width="18" height="18" origWidth="197" origHeight="29" componentType="picture" title="Line Solid" icon_src="a2bb8a481d24cf236d228cfb9ba0d6f7.wix_ico_mp" componentTypeRole="none" category1="Line" category2="" category3="parts" alpha="1" instanceID="picture103" x="544" mask="none" y="18" groupNum="32647" rotation="-90" skewX="0" skewY="0" flipVert="false" blendMode="NORMAL" containerAlpha="1" scaleX="1" scaleY="1" selected="false" flipHorz="false" locked="false" maxWidth="-1" maxHeight="-1" minWidth="-1" minHeight="-1" childIdx="2" mainStacker="false" premiumMask="0" isInteractive="false" link="" imageAspectRatio="-1" taskComponentID="" styleName="" name="" express="true">
+          <params>
+            <paramNode paramName="pic" src="5a6dd211d5dcad23a6fb7a12e2964003.wix_mp" cropRotation="0" aspectRatio="stretch" cropX="-51.827" providerName="" cropY="0" cropWidth="121.655" picTitle="Line Solid" cropHeight="18"/>
+          </params>
+        </instance>
+        <instance width="18" height="18" origWidth="197" origHeight="29" componentType="picture" title="Line Solid" icon_src="a2bb8a481d24cf236d228cfb9ba0d6f7.wix_ico_mp" componentTypeRole="none" category1="Line" category2="" category3="parts" alpha="1" instanceID="picture104" x="627" mask="none" y="18" groupNum="32647" rotation="-90" skewX="0" skewY="0" flipVert="false" blendMode="NORMAL" containerAlpha="1" scaleX="1" scaleY="1" selected="false" flipHorz="false" locked="false" maxWidth="-1" maxHeight="-1" minWidth="-1" minHeight="-1" childIdx="3" mainStacker="false" premiumMask="0" isInteractive="false" link="" imageAspectRatio="-1" taskComponentID="" styleName="" name="" express="true">
+          <params>
+            <paramNode paramName="pic" src="5a6dd211d5dcad23a6fb7a12e2964003.wix_mp" cropRotation="0" aspectRatio="stretch" cropX="-51.827" providerName="" cropY="0" cropWidth="121.655" picTitle="Line Solid" cropHeight="18"/>
+          </params>
+        </instance>
+        <instance width="18" height="18" origWidth="197" origHeight="29" componentType="picture" title="Line Solid" icon_src="a2bb8a481d24cf236d228cfb9ba0d6f7.wix_ico_mp" componentTypeRole="none" category1="Line" category2="" category3="parts" alpha="1" instanceID="picture105" x="0" mask="none" y="18" groupNum="32647" rotation="-90" skewX="0" skewY="0" flipVert="false" blendMode="NORMAL" containerAlpha="1" scaleX="1" scaleY="1" selected="false" flipHorz="false" locked="false" maxWidth="-1" maxHeight="-1" minWidth="-1" minHeight="-1" childIdx="4" mainStacker="false" premiumMask="0" isInteractive="false" link="" imageAspectRatio="-1" taskComponentID="" styleName="" name="" express="true">
+          <params>
+            <paramNode paramName="pic" src="5a6dd211d5dcad23a6fb7a12e2964003.wix_mp" cropRotation="0" aspectRatio="stretch" cropX="-51.827" providerName="" cropY="0" cropWidth="121.655" picTitle="Line Solid" cropHeight="18"/>
+          </params>
+        </instance>
+        <instance width="18" height="18" origWidth="197" origHeight="29" componentType="picture" title="Line Solid" icon_src="a2bb8a481d24cf236d228cfb9ba0d6f7.wix_ico_mp" componentTypeRole="none" category1="Line" category2="" category3="parts" alpha="1" instanceID="picture106" x="60" mask="none" y="18" groupNum="32647" rotation="-90" skewX="0" skewY="0" flipVert="false" blendMode="NORMAL" containerAlpha="1" scaleX="1" scaleY="1" selected="false" flipHorz="false" locked="false" maxWidth="-1" maxHeight="-1" minWidth="-1" minHeight="-1" childIdx="5" mainStacker="false" premiumMask="0" isInteractive="false" link="" imageAspectRatio="-1" taskComponentID="" styleName="" name="" express="true">
+          <params>
+            <paramNode paramName="pic" src="5a6dd211d5dcad23a6fb7a12e2964003.wix_mp" cropRotation="0" aspectRatio="stretch" cropX="-51.827" providerName="" cropY="0" cropWidth="121.655" picTitle="Line Solid" cropHeight="18"/>
+          </params>
+        </instance>
+        <instance width="18" height="18" origWidth="197" origHeight="29" componentType="picture" title="Line Solid" icon_src="a2bb8a481d24cf236d228cfb9ba0d6f7.wix_ico_mp" componentTypeRole="none" category1="Line" category2="" category3="parts" alpha="1" instanceID="picture107" x="117" mask="none" y="18" groupNum="32647" rotation="-90" skewX="0" skewY="0" flipVert="false" blendMode="NORMAL" containerAlpha="1" scaleX="1" scaleY="1" selected="false" flipHorz="false" locked="false" maxWidth="-1" maxHeight="-1" minWidth="-1" minHeight="-1" childIdx="6" mainStacker="false" premiumMask="0" isInteractive="false" link="" imageAspectRatio="-1" taskComponentID="" styleName="" name="" express="true">
+          <params>
+            <paramNode paramName="pic" src="5a6dd211d5dcad23a6fb7a12e2964003.wix_mp" cropRotation="0" aspectRatio="stretch" cropX="-51.827" providerName="" cropY="0" cropWidth="121.655" picTitle="Line Solid" cropHeight="18"/>
+          </params>
+        </instance>
+        <instance width="18" height="18" origWidth="197" origHeight="29" componentType="picture" title="Line Solid" icon_src="a2bb8a481d24cf236d228cfb9ba0d6f7.wix_ico_mp" componentTypeRole="none" category1="Line" category2="" category3="parts" alpha="1" instanceID="picture108" x="189" mask="none" y="18" groupNum="32647" rotation="-90" skewX="0" skewY="0" flipVert="false" blendMode="NORMAL" containerAlpha="1" scaleX="1" scaleY="1" selected="false" flipHorz="false" locked="false" maxWidth="-1" maxHeight="-1" minWidth="-1" minHeight="-1" childIdx="7" mainStacker="false" premiumMask="0" isInteractive="false" link="" imageAspectRatio="-1" taskComponentID="" styleName="" name="" express="true">
+          <params>
+            <paramNode paramName="pic" src="5a6dd211d5dcad23a6fb7a12e2964003.wix_mp" cropRotation="0" aspectRatio="stretch" cropX="-51.827" providerName="" cropY="0" cropWidth="121.655" picTitle="Line Solid" cropHeight="18"/>
+          </params>
+        </instance>
+        <instance width="18" height="18" origWidth="197" origHeight="29" componentType="picture" title="Line Solid" icon_src="a2bb8a481d24cf236d228cfb9ba0d6f7.wix_ico_mp" componentTypeRole="none" category1="Line" category2="" category3="parts" alpha="1" instanceID="picture109" x="254" mask="none" y="18" groupNum="32647" rotation="-90" skewX="0" skewY="0" flipVert="false" blendMode="NORMAL" containerAlpha="1" scaleX="1" scaleY="1" selected="false" flipHorz="false" locked="false" maxWidth="-1" maxHeight="-1" minWidth="-1" minHeight="-1" childIdx="8" mainStacker="false" premiumMask="0" isInteractive="false" link="" imageAspectRatio="-1" taskComponentID="" styleName="" name="" express="true">
+          <params>
+            <paramNode paramName="pic" src="5a6dd211d5dcad23a6fb7a12e2964003.wix_mp" cropRotation="0" aspectRatio="stretch" cropX="-51.827" providerName="" cropY="0" cropWidth="121.655" picTitle="Line Solid" cropHeight="18"/>
+          </params>
+        </instance>
+        <instance width="56" height="16" origWidth="135" origHeight="40" componentType="TextButton3G" title="Text Only" icon_src="09333db14c98671e6d31bf739e7c4561.wix_ico_mp" componentTypeRole="none" category1="Button3GSkin" category2="" category3="" alpha="1" instanceID="TextButton3G88" childIdx="9" scaleX="1" containerAlpha="1" scaleY="1" selected="false" flipHorz="false" mask="" minHeight="15.15" flipVert="false" isInteractive="false" premiumMask="0" x="362" mainStacker="false" y="1" blendMode="" rotation="0" locked="false" groupNum="32647" maxWidth="-1" minWidth="53.05" maxHeight="-1" link="URL[*val*]http://ru.wix.com/about/terms-of-use[*val*]_self" imageAspectRatio="-1" styleName="" taskComponentID="" name="" express="true">
+          <params>
+            <paramNode paramName="textFormats">
+              <textFormat bold="false" color="#585858" font="arial" italic="false" size="10" align="left" formatName="up"/>
+              <textFormat bold="false" color="#000000" font="arial" italic="false" size="10" align="left" formatName="over"/>
+              <textFormat bold="false" color="#000000" font="arial" italic="false" size="10" align="left" formatName="down"/>
+            </paramNode>
+            <paramNode paramName="skinSource" src="9ca147d3a002c8c93abfc010e5147b88.skinz" mediaTitle="Text Only" skinTitle="" title="TextBtn_3G" null="535439a419a3b1f264fe484955a82279.wix_ico_mp"/>
+            <paramNode paramName="texts" title="Условия"/>
+            <paramNode paramName="buttonParams" height="0" selected="false" iconSize="19" picTitle="Crown" width="0" showIcon="false" iconTextMargin="3" selectable="false" contentMargin="10" align="1" iconSrc="7e2bb547ae756bde1123ce499b0ac04ddea3ba1c.wix_mp"/>
+            <paramNode paramName="contentParams"/>
+            <paramNode paramName="colors"/>
+          </params>
+        </instance>
+        <instance width="116" height="16" origWidth="135" origHeight="40" componentType="TextButton3G" title="Text Only" icon_src="09333db14c98671e6d31bf739e7c4561.wix_ico_mp" componentTypeRole="none" category1="Button3GSkin" category2="" category3="" alpha="1" instanceID="TextButton3G89" childIdx="10" scaleX="1" containerAlpha="1" scaleY="1" selected="false" flipHorz="false" mask="" minHeight="15.15" flipVert="false" isInteractive="false" premiumMask="0" x="432" mainStacker="false" y="1" blendMode="" rotation="0" locked="false" groupNum="32647" maxWidth="-1" minWidth="115.5" maxHeight="-1" link="URL[*val*]http://ru.wix.com/about/privacy[*val*]_blank" imageAspectRatio="-1" styleName="" taskComponentID="" name="" express="true">
+          <params>
+            <paramNode paramName="textFormats">
+              <textFormat bold="false" color="#585858" font="arial" italic="false" size="10" align="left" formatName="up"/>
+              <textFormat bold="false" color="#000000" font="arial" italic="false" size="10" align="left" formatName="over"/>
+              <textFormat bold="false" color="#000000" font="arial" italic="false" size="10" align="left" formatName="down"/>
+            </paramNode>
+            <paramNode paramName="skinSource" src="9ca147d3a002c8c93abfc010e5147b88.skinz" mediaTitle="Text Only" skinTitle="" title="TextBtn_3G" null="535439a419a3b1f264fe484955a82279.wix_ico_mp"/>
+            <paramNode paramName="texts" title="Конфиденциальность"/>
+            <paramNode paramName="buttonParams" height="0" selected="false" iconSize="19" picTitle="Crown" width="0" showIcon="false" iconTextMargin="3" selectable="false" contentMargin="10" align="1" iconSrc="7e2bb547ae756bde1123ce499b0ac04ddea3ba1c.wix_mp"/>
+            <paramNode paramName="contentParams"/>
+            <paramNode paramName="colors"/>
+          </params>
+        </instance>
+        <instance width="75" height="16" origWidth="135" origHeight="40" componentType="TextButton3G" title="Text Only" icon_src="09333db14c98671e6d31bf739e7c4561.wix_ico_mp" componentTypeRole="none" category1="Button3GSkin" category2="" category3="" alpha="1" instanceID="TextButton3G90" childIdx="11" scaleX="1" containerAlpha="1" scaleY="1" selected="false" flipHorz="false" mask="" minHeight="15.15" flipVert="false" isInteractive="false" premiumMask="0" x="558" mainStacker="false" y="2" blendMode="" rotation="0" locked="false" groupNum="32647" maxWidth="-1" minWidth="72.4" maxHeight="-1" link="URL[*val*]http://www.wix.com/flash/sitemap.htm[*val*]_blank" imageAspectRatio="-1" styleName="" taskComponentID="" name="" express="true">
+          <params>
+            <paramNode paramName="textFormats">
+              <textFormat bold="false" color="#585858" font="arial" italic="false" size="10" align="left" formatName="up"/>
+              <textFormat bold="false" color="#000000" font="arial" italic="false" size="10" align="left" formatName="over"/>
+              <textFormat bold="false" color="#000000" font="arial" italic="false" size="10" align="left" formatName="down"/>
+            </paramNode>
+            <paramNode paramName="skinSource" src="9ca147d3a002c8c93abfc010e5147b88.skinz" mediaTitle="Text Only" skinTitle="" title="TextBtn_3G" null="535439a419a3b1f264fe484955a82279.wix_ico_mp"/>
+            <paramNode paramName="texts" title="Карта Сайта"/>
+            <paramNode paramName="buttonParams" height="0" selected="false" iconSize="19" picTitle="Crown" width="0" showIcon="false" iconTextMargin="3" selectable="false" contentMargin="10" align="1" iconSrc="7e2bb547ae756bde1123ce499b0ac04ddea3ba1c.wix_mp"/>
+            <paramNode paramName="contentParams"/>
+            <paramNode paramName="colors"/>
+          </params>
+        </instance>
+        <instance width="45" height="16" origWidth="135" origHeight="40" componentType="TextButton3G" title="Text Only" icon_src="09333db14c98671e6d31bf739e7c4561.wix_ico_mp" componentTypeRole="none" category1="Button3GSkin" category2="" category3="" alpha="1" instanceID="TextButton3G91" childIdx="12" scaleX="1" containerAlpha="1" scaleY="1" selected="false" flipHorz="false" mask="" minHeight="15.15" flipVert="false" isInteractive="false" premiumMask="0" x="16" mainStacker="false" y="1" blendMode="" rotation="0" locked="false" groupNum="32647" maxWidth="-1" minWidth="42.35" maxHeight="-1" link="URL[*val*]http://ru.wix.com/about/us[*val*]_self" imageAspectRatio="-1" styleName="" taskComponentID="" name="" express="true">
+          <params>
+            <paramNode paramName="textFormats">
+              <textFormat bold="false" color="#585858" font="arial" italic="false" size="10" align="left" formatName="up"/>
+              <textFormat bold="false" color="#000000" font="arial" italic="false" size="10" align="left" formatName="over"/>
+              <textFormat bold="false" color="#000000" font="arial" italic="false" size="10" align="left" formatName="down"/>
+            </paramNode>
+            <paramNode paramName="skinSource" src="9ca147d3a002c8c93abfc010e5147b88.skinz" mediaTitle="Text Only" skinTitle="" title="TextBtn_3G" null="535439a419a3b1f264fe484955a82279.wix_ico_mp"/>
+            <paramNode paramName="texts" title="О Нас"/>
+            <paramNode paramName="buttonParams" height="0" selected="false" iconSize="19" picTitle="Crown" width="0" showIcon="false" iconTextMargin="3" selectable="false" contentMargin="10" align="1" iconSrc="7e2bb547ae756bde1123ce499b0ac04ddea3ba1c.wix_mp"/>
+            <paramNode paramName="contentParams"/>
+            <paramNode paramName="colors"/>
+          </params>
+        </instance>
+        <instance width="38" height="16" origWidth="135" origHeight="40" componentType="TextButton3G" title="Text Only" icon_src="09333db14c98671e6d31bf739e7c4561.wix_ico_mp" componentTypeRole="none" category1="Button3GSkin" category2="" category3="" alpha="1" instanceID="TextButton3G92" childIdx="13" scaleX="1" containerAlpha="1" scaleY="1" selected="false" flipHorz="false" mask="" minHeight="15.15" flipVert="false" isInteractive="false" premiumMask="0" x="79" mainStacker="false" y="1" blendMode="" rotation="0" locked="false" groupNum="32647" maxWidth="-1" minWidth="35.6" maxHeight="-1" link="URL[*val*]http://blog.wix.com/[*val*]_blank" imageAspectRatio="-1" styleName="" taskComponentID="" name="" express="true">
+          <params>
+            <paramNode paramName="textFormats">
+              <textFormat bold="false" color="#585858" font="arial" italic="false" size="10" align="left" formatName="up"/>
+              <textFormat bold="false" color="#000000" font="arial" italic="false" size="10" align="left" formatName="over"/>
+              <textFormat bold="false" color="#000000" font="arial" italic="false" size="10" align="left" formatName="down"/>
+            </paramNode>
+            <paramNode paramName="skinSource" src="9ca147d3a002c8c93abfc010e5147b88.skinz" mediaTitle="Text Only" skinTitle="" title="TextBtn_3G" null="535439a419a3b1f264fe484955a82279.wix_ico_mp"/>
+            <paramNode paramName="texts" title="Блог"/>
+            <paramNode paramName="buttonParams" height="0" selected="false" iconSize="19" picTitle="Crown" width="0" showIcon="false" iconTextMargin="3" selectable="false" contentMargin="10" align="1" iconSrc="7e2bb547ae756bde1123ce499b0ac04ddea3ba1c.wix_mp"/>
+            <paramNode paramName="contentParams"/>
+            <paramNode paramName="colors"/>
+          </params>
+        </instance>
+        <instance width="47" height="16" origWidth="135" origHeight="40" componentType="TextButton3G" title="Text Only" icon_src="09333db14c98671e6d31bf739e7c4561.wix_ico_mp" componentTypeRole="none" category1="Button3GSkin" category2="" category3="" alpha="1" instanceID="TextButton3G93" childIdx="14" scaleX="1" containerAlpha="1" scaleY="1" selected="false" flipHorz="false" mask="" minHeight="15.15" flipVert="false" isInteractive="false" premiumMask="0" x="136" mainStacker="false" y="1" blendMode="" rotation="0" locked="false" groupNum="32647" maxWidth="-1" minWidth="44.6" maxHeight="-1" link="URL[*val*]http://ru.wix.com/support/forum[*val*]_self" imageAspectRatio="-1" styleName="" taskComponentID="" name="" express="true">
+          <params>
+            <paramNode paramName="textFormats">
+              <textFormat bold="false" color="#585858" font="arial" italic="false" size="10" align="left" formatName="up"/>
+              <textFormat bold="false" color="#000000" font="arial" italic="false" size="10" align="left" formatName="over"/>
+              <textFormat bold="false" color="#000000" font="arial" italic="false" size="10" align="left" formatName="down"/>
+            </paramNode>
+            <paramNode paramName="skinSource" src="9ca147d3a002c8c93abfc010e5147b88.skinz" mediaTitle="Text Only" skinTitle="" title="TextBtn_3G" null="535439a419a3b1f264fe484955a82279.wix_ico_mp"/>
+            <paramNode paramName="texts" title="Форум"/>
+            <paramNode paramName="buttonParams" height="0" selected="false" iconSize="19" picTitle="Crown" width="0" showIcon="false" iconTextMargin="3" selectable="false" contentMargin="10" align="1" iconSrc="7e2bb547ae756bde1123ce499b0ac04ddea3ba1c.wix_mp"/>
+            <paramNode paramName="contentParams"/>
+            <paramNode paramName="colors"/>
+          </params>
+        </instance>
+        <instance width="55" height="16" origWidth="135" origHeight="40" componentType="TextButton3G" title="Text Only" icon_src="09333db14c98671e6d31bf739e7c4561.wix_ico_mp" componentTypeRole="none" category1="Button3GSkin" category2="" category3="" alpha="1" instanceID="TextButton3G94" childIdx="15" scaleX="1" containerAlpha="1" scaleY="1" selected="false" flipHorz="false" mask="" minHeight="15.15" flipVert="false" isInteractive="false" premiumMask="0" x="204" mainStacker="false" y="1" blendMode="" rotation="0" locked="false" groupNum="32647" maxWidth="-1" minWidth="52.6" maxHeight="-1" link="URL[*val*]http://ru.wix.com/support/[*val*]_blank" imageAspectRatio="-1" styleName="" taskComponentID="" name="" express="true">
+          <params>
+            <paramNode paramName="textFormats">
+              <textFormat bold="false" color="#585858" font="arial" italic="false" size="10" align="left" formatName="up"/>
+              <textFormat bold="false" color="#000000" font="arial" italic="false" size="10" align="left" formatName="over"/>
+              <textFormat bold="false" color="#000000" font="arial" italic="false" size="10" align="left" formatName="down"/>
+            </paramNode>
+            <paramNode paramName="skinSource" src="9ca147d3a002c8c93abfc010e5147b88.skinz" mediaTitle="Text Only" skinTitle="" title="TextBtn_3G" null="535439a419a3b1f264fe484955a82279.wix_ico_mp"/>
+            <paramNode paramName="texts" title="Помощь"/>
+            <paramNode paramName="buttonParams" height="0" selected="false" iconSize="19" picTitle="Crown" width="0" showIcon="false" iconTextMargin="3" selectable="false" contentMargin="10" align="1" iconSrc="7e2bb547ae756bde1123ce499b0ac04ddea3ba1c.wix_mp"/>
+            <paramNode paramName="contentParams"/>
+            <paramNode paramName="colors"/>
+          </params>
+        </instance>
+        <instance width="81" height="16" origWidth="135" origHeight="40" componentType="TextButton3G" title="Text Only" icon_src="09333db14c98671e6d31bf739e7c4561.wix_ico_mp" componentTypeRole="none" category1="Button3GSkin" category2="" category3="" alpha="1" instanceID="TextButton3G95" childIdx="16" scaleX="1" containerAlpha="1" scaleY="1" selected="false" flipHorz="false" mask="" minHeight="15.15" flipVert="false" isInteractive="false" premiumMask="0" x="270" mainStacker="false" y="1" blendMode="" rotation="0" locked="false" groupNum="32647" maxWidth="-1" minWidth="80.7" maxHeight="-1" link="URL[*val*]http://www.wix.com/flash/web-design/templates.html[*val*]_self" imageAspectRatio="-1" styleName="" taskComponentID="" name="" express="true">
+          <params>
+            <paramNode paramName="textFormats">
+              <textFormat bold="false" color="#585858" font="arial" italic="false" size="10" align="left" formatName="up"/>
+              <textFormat bold="false" color="#000000" font="arial" italic="false" size="10" align="left" formatName="over"/>
+              <textFormat bold="false" color="#000000" font="arial" italic="false" size="10" align="left" formatName="down"/>
+            </paramNode>
+            <paramNode paramName="skinSource" src="9ca147d3a002c8c93abfc010e5147b88.skinz" mediaTitle="Text Only" skinTitle="" title="TextBtn_3G" null="535439a419a3b1f264fe484955a82279.wix_ico_mp"/>
+            <paramNode paramName="texts" title="Как Сделать..."/>
+            <paramNode paramName="buttonParams" height="0" selected="false" iconSize="19" picTitle="Crown" width="0" showIcon="false" iconTextMargin="3" selectable="false" contentMargin="10" align="1" iconSrc="7e2bb547ae756bde1123ce499b0ac04ddea3ba1c.wix_mp"/>
+            <paramNode paramName="contentParams"/>
+            <paramNode paramName="colors"/>
+          </params>
+        </instance>
+      </childComps>
+    </instance>
+    <instance componentType="groupHolder" instanceID="groupHolder1974830" x="11" y="8" width="770" height="36" childIdx="49" scaleX="1" scaleY="1" maxHeight="-1" selected="false" minHeight="-1" alpha="1" minWidth="-1" mask="" link="" category1="" taskComponentID="" componentTypeRole="" category2="" category3="" rotation="0" origWidth="770" groupNum="130223" origHeight="36" styleName="" containerAlpha="1" icon_src="378b15b4027bad2a404daac5579f2886.wix_ico_mp" title="headerlinks" flipVert="false" isInteractive="false" imageAspectRatio="-1" premiumMask="0" blendMode="" flipHorz="false" express="true" maxWidth="-1" name="" locked="false">
+      <childComps listName="externalWixChildren">
+        <instance width="113" height="30" origWidth="113" origHeight="30" category1="" category2="" category3="" componentType="picture" title="wix-logo-small" icon_src="ddcb3270201a138fb0e2f89de65ca373.wix_ico_mp" componentTypeRole="" alpha="1" instanceID="picture110" childIdx="0" scaleX="1" y="0" x="0" link="URL[*val*]http://ru.wix.com/[*val*]_self" scaleY="1" mask="" locked="false" flipHorz="false" flipVert="false" containerAlpha="1" rotation="0" minWidth="-1" imageAspectRatio="-1" maxWidth="-1" maxHeight="-1" minHeight="-1" groupNum="130223" isInteractive="false" premiumMask="0" taskComponentID="" styleName="" blendMode="" selected="false" express="true" name="">
+          <params>
+            <paramNode paramName="pic" src="ddcb3270201a138fb0e2f89de65ca373.wix_mp" cropRotation="0" aspectRatio="cropsimple" cropX="0" providerName="" cropY="0" cropWidth="113" picTitle="wix-logo-small" cropHeight="30"/>
+          </params>
+        </instance>
+        <instance width="72" height="22" origWidth="135" origHeight="40" componentType="TextButton3G" title="Text Only" icon_src="09333db14c98671e6d31bf739e7c4561.wix_ico_mp" componentTypeRole="none" category1="Button3GSkin" category2="" category3="" alpha="1" instanceID="TextButton3G96" childIdx="1" scaleX="1" containerAlpha="1" scaleY="1" selected="false" flipHorz="false" mask="" minHeight="19.6" flipVert="false" isInteractive="false" premiumMask="0" x="119" mainStacker="false" y="14" blendMode="" rotation="0" locked="false" groupNum="130223" maxWidth="-1" minWidth="68.1" maxHeight="-1" link="URL[*val*]http://ru.wix.com/[*val*]_self" imageAspectRatio="-1" taskComponentID="" styleName="" express="true" name="">
+          <params>
+            <paramNode paramName="textFormats">
+              <textFormat bold="false" color="#222222" font="arial" italic="false" size="14" align="left" formatName="up"/>
+              <textFormat bold="false" color="#0099ff" font="arial" italic="false" size="14" align="left" formatName="over"/>
+              <textFormat bold="false" color="#222222" font="arial" italic="false" size="14" align="left" formatName="down"/>
+            </paramNode>
+            <paramNode paramName="skinSource" src="9ca147d3a002c8c93abfc010e5147b88.skinz" mediaTitle="Text Only" skinTitle="" title="TextBtn_3G" null="535439a419a3b1f264fe484955a82279.wix_ico_mp"/>
+            <paramNode paramName="texts" title="Главная"/>
+            <paramNode paramName="buttonParams" height="0" selected="false" iconSize="19" picTitle="Crown" width="0" showIcon="false" iconTextMargin="3" selectable="false" contentMargin="10" align="1" iconSrc="7e2bb547ae756bde1123ce499b0ac04ddea3ba1c.wix_mp"/>
+            <paramNode paramName="contentParams"/>
+            <paramNode paramName="colors"/>
+          </params>
+        </instance>
+        <instance width="68" height="22" origWidth="135" origHeight="40" componentType="TextButton3G" title="Text Only" icon_src="09333db14c98671e6d31bf739e7c4561.wix_ico_mp" componentTypeRole="none" category1="Button3GSkin" category2="" category3="" alpha="1" instanceID="TextButton3G97" childIdx="2" scaleX="1" containerAlpha="1" scaleY="1" selected="false" flipHorz="false" mask="" minHeight="19.6" flipVert="false" isInteractive="false" premiumMask="0" x="203" mainStacker="false" y="14" blendMode="" rotation="0" locked="false" groupNum="130223" maxWidth="-1" minWidth="68" maxHeight="-1" link="URL[*val*]http://ru.wix.com/create/website[*val*]_self" imageAspectRatio="-1" taskComponentID="" styleName="" express="true" name="">
+          <params>
+            <paramNode paramName="textFormats">
+              <textFormat bold="false" color="#222222" font="arial" italic="false" size="14" align="left" formatName="up"/>
+              <textFormat bold="false" color="#0099ff" font="arial" italic="false" size="14" align="left" formatName="over"/>
+              <textFormat bold="false" color="#222222" font="arial" italic="false" size="14" align="left" formatName="down"/>
+            </paramNode>
+            <paramNode paramName="skinSource" src="9ca147d3a002c8c93abfc010e5147b88.skinz" mediaTitle="Text Only" skinTitle="" title="TextBtn_3G" null="535439a419a3b1f264fe484955a82279.wix_ico_mp"/>
+            <paramNode paramName="texts" title="Создать"/>
+            <paramNode paramName="buttonParams" height="0" selected="false" iconSize="19" picTitle="Crown" width="0" showIcon="false" iconTextMargin="3" selectable="false" contentMargin="10" align="1" iconSrc="7e2bb547ae756bde1123ce499b0ac04ddea3ba1c.wix_mp"/>
+            <paramNode paramName="contentParams"/>
+            <paramNode paramName="colors"/>
+          </params>
+        </instance>
+        <instance width="103" height="22" origWidth="135" origHeight="40" componentType="TextButton3G" title="Text Only" icon_src="09333db14c98671e6d31bf739e7c4561.wix_ico_mp" componentTypeRole="none" category1="Button3GSkin" category2="" category3="" alpha="1" instanceID="TextButton3G98" childIdx="3" scaleX="1" containerAlpha="1" scaleY="1" selected="false" flipHorz="false" mask="" minHeight="19.6" flipVert="false" isInteractive="false" premiumMask="0" x="283" mainStacker="false" y="14" blendMode="" rotation="0" locked="false" groupNum="130223" maxWidth="-1" minWidth="98.9" maxHeight="-1" link="URL[*val*]http://ru.wix.com/sample/website[*val*]_self" imageAspectRatio="-1" taskComponentID="" styleName="" express="true" name="">
+          <params>
+            <paramNode paramName="textFormats">
+              <textFormat bold="false" color="#222222" font="arial" italic="false" size="14" align="left" formatName="up"/>
+              <textFormat bold="false" color="#0099ff" font="arial" italic="false" size="14" align="left" formatName="over"/>
+              <textFormat bold="false" color="#222222" font="arial" italic="false" size="14" align="left" formatName="down"/>
+            </paramNode>
+            <paramNode paramName="skinSource" src="9ca147d3a002c8c93abfc010e5147b88.skinz" mediaTitle="Text Only" skinTitle="" title="TextBtn_3G" null="535439a419a3b1f264fe484955a82279.wix_ico_mp"/>
+            <paramNode paramName="texts" title="Исследовать"/>
+            <paramNode paramName="buttonParams" height="0" selected="false" iconSize="19" picTitle="Crown" width="0" showIcon="false" iconTextMargin="3" selectable="false" contentMargin="10" align="1" iconSrc="7e2bb547ae756bde1123ce499b0ac04ddea3ba1c.wix_mp"/>
+            <paramNode paramName="contentParams"/>
+            <paramNode paramName="colors"/>
+          </params>
+        </instance>
+        <instance width="96" height="22" origWidth="135" origHeight="40" componentType="TextButton3G" title="Text Only" icon_src="09333db14c98671e6d31bf739e7c4561.wix_ico_mp" componentTypeRole="none" category1="Button3GSkin" category2="" category3="" alpha="1" instanceID="TextButton3G99" childIdx="4" scaleX="1" containerAlpha="1" scaleY="1" selected="false" flipHorz="false" mask="" minHeight="19.6" flipVert="false" isInteractive="false" premiumMask="0" x="397" mainStacker="false" y="14" blendMode="" rotation="0" locked="false" groupNum="130223" maxWidth="-1" minWidth="95.7" maxHeight="-1" link="URL[*val*]http://ru.wix.com/create/my-account[*val*]_self" imageAspectRatio="-1" taskComponentID="" styleName="" express="true" name="">
+          <params>
+            <paramNode paramName="textFormats">
+              <textFormat bold="false" color="#222222" font="arial" italic="false" size="14" align="left" formatName="up"/>
+              <textFormat bold="false" color="#0099ff" font="arial" italic="false" size="14" align="left" formatName="over"/>
+              <textFormat bold="false" color="#222222" font="arial" italic="false" size="14" align="left" formatName="down"/>
+            </paramNode>
+            <paramNode paramName="skinSource" src="9ca147d3a002c8c93abfc010e5147b88.skinz" mediaTitle="Text Only" skinTitle="" title="TextBtn_3G" null="535439a419a3b1f264fe484955a82279.wix_ico_mp"/>
+            <paramNode paramName="texts" title="Мой Аккаунт"/>
+            <paramNode paramName="buttonParams" height="0" selected="false" iconSize="19" picTitle="Crown" width="0" showIcon="false" iconTextMargin="3" selectable="false" contentMargin="10" align="1" iconSrc="7e2bb547ae756bde1123ce499b0ac04ddea3ba1c.wix_mp"/>
+            <paramNode paramName="contentParams"/>
+            <paramNode paramName="colors"/>
+          </params>
+        </instance>
+        <instance width="162" height="22" origWidth="135" origHeight="40" componentType="TextButton3G" title="Text Only" icon_src="09333db14c98671e6d31bf739e7c4561.wix_ico_mp" componentTypeRole="none" category1="Button3GSkin" category2="" category3="" alpha="1" instanceID="TextButton3G100" childIdx="5" scaleX="1" containerAlpha="1" scaleY="1" selected="false" flipHorz="false" mask="" minHeight="19.6" flipVert="false" isInteractive="false" premiumMask="0" x="504" mainStacker="false" y="14" blendMode="" rotation="0" locked="false" groupNum="130223" maxWidth="-1" minWidth="158.25" maxHeight="-1" link="URL[*val*]http://ru.wix.com/upgrade/website[*val*]_self" imageAspectRatio="-1" taskComponentID="" styleName="" express="true" name="">
+          <params>
+            <paramNode paramName="textFormats">
+              <textFormat bold="false" color="#222222" font="arial" italic="false" size="14" align="left" formatName="up"/>
+              <textFormat bold="false" color="#a618dd" font="arial" italic="false" size="14" align="left" formatName="over"/>
+              <textFormat bold="false" color="#222222" font="arial" italic="false" size="14" align="left" formatName="down"/>
+            </paramNode>
+            <paramNode paramName="skinSource" src="9ca147d3a002c8c93abfc010e5147b88.skinz" mediaTitle="Text Only" skinTitle="" title="TextBtn_3G" null="535439a419a3b1f264fe484955a82279.wix_ico_mp"/>
+            <paramNode paramName="texts" title="Расширенные Пакеты"/>
+            <paramNode paramName="buttonParams" height="0" selected="false" iconSize="19" picTitle="Crown" width="0" showIcon="false" iconTextMargin="3" selectable="false" contentMargin="10" align="1" iconSrc="7e2bb547ae756bde1123ce499b0ac04ddea3ba1c.wix_mp"/>
+            <paramNode paramName="contentParams"/>
+            <paramNode paramName="colors"/>
+          </params>
+        </instance>
+        <instance width="91" height="22" origWidth="135" origHeight="40" componentType="TextButton3G" title="Text Only" icon_src="09333db14c98671e6d31bf739e7c4561.wix_ico_mp" componentTypeRole="none" category1="Button3GSkin" category2="" category3="" alpha="1" instanceID="TextButton3G101" childIdx="6" scaleX="1" containerAlpha="1" scaleY="1" selected="false" flipHorz="false" mask="" minHeight="19.6" flipVert="false" isInteractive="false" premiumMask="0" x="679" mainStacker="false" y="14" blendMode="" rotation="0" locked="false" groupNum="130223" maxWidth="-1" minWidth="87.05" maxHeight="-1" link="URL[*val*]http://ru.answers.wix.com/[*val*]_self" imageAspectRatio="-1" taskComponentID="" styleName="" express="true" name="">
+          <params>
+            <paramNode paramName="textFormats">
+              <textFormat bold="false" color="#222222" font="arial" italic="false" size="14" align="left" formatName="up"/>
+              <textFormat bold="false" color="#0099ff" font="arial" italic="false" size="14" align="left" formatName="over"/>
+              <textFormat bold="false" color="#222222" font="arial" italic="false" size="14" align="left" formatName="down"/>
+            </paramNode>
+            <paramNode paramName="skinSource" src="9ca147d3a002c8c93abfc010e5147b88.skinz" mediaTitle="Text Only" skinTitle="" title="TextBtn_3G" null="535439a419a3b1f264fe484955a82279.wix_ico_mp"/>
+            <paramNode paramName="texts" title="Поддержка"/>
+            <paramNode paramName="buttonParams" height="0" selected="false" iconSize="19" picTitle="Crown" width="0" showIcon="false" iconTextMargin="3" selectable="false" contentMargin="10" align="1" iconSrc="7e2bb547ae756bde1123ce499b0ac04ddea3ba1c.wix_mp"/>
+            <paramNode paramName="contentParams"/>
+            <paramNode paramName="colors"/>
+          </params>
+        </instance>
+      </childComps>
+    </instance>
+  </layout>
+  <generalSettings>
+    <shoppingCart>
+      <settings serviceName="Paypal" email="Your PayPal e-mail account" googleCheckoutMerchantID="" dineroMailAccountNumber="" pagseguroToken="" pagseguroReciverEmail="" openIn="OPEN_IN_NEW_PAGE" newLangSettings="true" currencyCode="USD" addToCartTitle="ADD TO CART" yourCartTitle="Your Cart" cartDescriptionTitle="Add or remove products from your cart" cartItemTitle="Item" cartPriceTitle="Price" cartQtyTitle="Qty" cartTotalTitle="Total" cartTotalPriceTitle="Total:" cartPriceInTitle="Price in" productOverviewLabel="Overview" viewCartLabel="Cart:" viewCartLink="" productDetailsLabel="Details"/>
+    </shoppingCart>
+  </generalSettings>
+</document>
