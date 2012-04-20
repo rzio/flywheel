@@ -9,9 +9,9 @@ import pro.reznick.flywheel.configuration.InvalidConfigurationException;
 import pro.reznick.flywheel.configuration.persistance.InstanceConfigurationPersistenceStrategy;
 import pro.reznick.flywheel.dal.DataDao;
 import pro.reznick.flywheel.dal.KyotoDataDaoImpl;
-import pro.reznick.flywheel.exceptions.CollectionAlreadyExistsException;
 import pro.reznick.flywheel.domain.Entity;
 import pro.reznick.flywheel.domain.Key;
+import pro.reznick.flywheel.exceptions.CollectionAlreadyExistsException;
 import pro.reznick.flywheel.exceptions.OperationFailedException;
 import pro.reznick.flywheel.hashing.CryptographicHash;
 
@@ -44,7 +44,7 @@ public class DeduplicationDataServiceTests
         if (svc == null)
         {
             config.registerCollectionConfig(COLLECTION_NAME, CryptographicHash.MD5);
-            CollectionManagementService mgmtSvc = new CollectionManagementServiceImpl(config,new InstanceConfigurationPersistenceStrategy()
+            CollectionManagementService mgmtSvc = new CollectionManagementServiceImpl(config, new InstanceConfigurationPersistenceStrategy()
             {
                 @Override
                 public InstanceConfiguration loadConfiguration() throws InvalidConfigurationException
@@ -63,7 +63,7 @@ public class DeduplicationDataServiceTests
             {
                 fail("failed opening DB");
             }
-            dao = new KyotoDataDaoImpl( db);
+            dao = new KyotoDataDaoImpl(db);
             svc = new DeduplicatingDataService(config, mgmtSvc, dao);
 
         }
@@ -93,7 +93,7 @@ public class DeduplicationDataServiceTests
     @Test
     public void testPutDedup() throws OperationFailedException
     {
-        for (byte i = 0; i < Byte.MAX_VALUE; i++)
+        for (byte i = 0; i < 127; i++)
         {
             svc.put(new KeyImpl("", ByteBuffer.allocate(Integer.SIZE / 8).putInt(i)), new Entity(testData, "application/test"));
         }
@@ -101,8 +101,9 @@ public class DeduplicationDataServiceTests
 
         assertArrayEquals(testData, e.getData());
         assertEquals("application/test", e.getMediaType());
+        byte[] dataPrefix = Charset.forName("US-ASCII").encode("__d").array();
 
-        assertThat(dao.getRefCount(config.getCollectionConfig(COLLECTION_NAME).getHashingStrategy().hash(testData)), is(126l));
+        assertThat(dao.getRefCount(join(dataPrefix,config.getCollectionConfig(COLLECTION_NAME).getHashingStrategy().hash(testData))), is(127l));
 
         Cursor c = db.cursor();
         c.jump();
@@ -122,5 +123,10 @@ public class DeduplicationDataServiceTests
         Entity e = svc.get(k);
         assertArrayEquals(testData, e.getData());
         assertEquals("application/test", e.getMediaType());
+    }
+
+    private byte[] join(byte[] a, byte[] b)
+    {
+        return ByteBuffer.allocate(a.length + b.length).put(a).put(b).array();
     }
 }

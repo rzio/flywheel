@@ -11,6 +11,10 @@ import pro.reznick.flywheel.domain.Key;
 import pro.reznick.flywheel.exceptions.OperationFailedException;
 import pro.reznick.flywheel.hashing.HashingStrategy;
 
+import javax.transaction.TransactionRequiredException;
+import java.nio.ByteBuffer;
+import java.nio.charset.Charset;
+
 /**
  * @author alex
  * @since 11/24/11 3:32 PM
@@ -18,12 +22,14 @@ import pro.reznick.flywheel.hashing.HashingStrategy;
 
 public class DeduplicatingDataService implements DataService
 {
+    static final Charset ASCII = Charset.forName("US-ASCII");
     InstanceConfiguration instance;
     CollectionManagementService mgmtSvc;
     private DataDao dao;
 
     private int dedups = 0;
     private int putRequests = 0;
+    final byte[] dataPrefix;
 
 
     @Inject
@@ -32,6 +38,7 @@ public class DeduplicatingDataService implements DataService
         this.instance = config;
         this.mgmtSvc = mgmtSvc;
         this.dao = dao;
+        dataPrefix = ASCII.encode("__d").array();
     }
 
     public OperationStatus put(Key key, Entity entity) throws OperationFailedException
@@ -60,15 +67,9 @@ public class DeduplicatingDataService implements DataService
 
 
         byte[] hash = strategy.hash(entity.getData());
-        if (!dao.containsEntity(hash))
-        {
-            dao.incrementRefCount(hash);
-            System.out.println(String.format("Total dedups: %s/%s", ++dedups, putRequests));
-        }
-        else
-        {
-            dao.storeEntity(hash, entity);
-        }
+
+        storeEntity(hash, entity);
+
         byte[] k = key.getStorageKey().array();
         byte[] oldHash = dao.get(k);
 
@@ -89,17 +90,16 @@ public class DeduplicatingDataService implements DataService
         byte[] hash = dao.get(key.getStorageKey().array());
         if (hash == null)
             return null;
-        return dao.getEntity(hash);
+        return getEntity(hash);
     }
 
-    public OperationStatus delete(Key key)
+    public OperationStatus delete(Key key) throws OperationFailedException
     {
         byte[] k = key.getStorageKey().array();
         byte[] hash = dao.get(k);
         if (hash != null)
         {
-            dao.decrementRefCount(hash);
-            dao.delete(k);
+            deleteEntity(hash);
             return OperationStatus.OK;
         }
         return OperationStatus.FAILED;
@@ -117,5 +117,64 @@ public class DeduplicatingDataService implements DataService
         dao.incrementRefCount(hash);
         dao.store(targetKey.getStorageKey().array(), hash);
 
+    }
+
+    public void storeEntity(byte[] hash, Entity entity) throws OperationFailedException
+    {
+        try
+        {
+            dao.storeWithRefCount(calculateKey(dataPrefix, hash), encodeEntity(entity));
+        }
+        catch (TransactionRequiredException e)
+        {
+            throw new OperationFailedException(e.getMessage(),e);
+        }
+    }
+
+    public void deleteEntity(byte[] hash) throws OperationFailedException
+    {
+        try
+        {
+            dao.deleteWithRefCount(calculateKey(dataPrefix, hash));
+        }
+        catch (TransactionRequiredException e)
+        {
+            throw new OperationFailedException(e.getMessage(),e);
+        }
+
+    }
+
+    public Entity getEntity(byte[] hash)
+    {
+        byte[] data = dao.get(calculateKey(dataPrefix, hash));
+        return data == null ? null : decodeEntity(data);
+    }
+
+    byte[] calculateKey(byte[] prefix, byte[] key)
+    {
+        return ByteBuffer.allocate(key.length + prefix.length).put(prefix).put(key).array();
+    }
+
+    byte[] encodeEntity(Entity entity)
+    {
+        byte[] mediaType = ASCII.encode(entity.getMediaType()).array();
+        byte[] data = entity.getData();
+        int unsignedByteMediaTypeLength = mediaType.length & 0xff;
+        return ByteBuffer.allocate(1 + mediaType.length + data.length)
+                .put((byte) unsignedByteMediaTypeLength)
+                .put(mediaType)
+                .put(data)
+                .array();
+    }
+
+    Entity decodeEntity(byte[] rawData)
+    {
+        ByteBuffer bb = ByteBuffer.wrap(rawData);
+        int mediaTypeLength = bb.get() & 0xff;//unsigned byte
+        byte[] mediaType = new byte[mediaTypeLength];
+        bb.get(mediaType);
+        byte[] data = new byte[rawData.length - 1 - mediaTypeLength];
+        bb.get(data);
+        return new Entity(data, ASCII.decode(ByteBuffer.wrap(mediaType)).toString());
     }
 }

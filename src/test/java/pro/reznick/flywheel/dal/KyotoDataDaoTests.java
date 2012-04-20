@@ -1,12 +1,10 @@
 package pro.reznick.flywheel.dal;
 
 import kyotocabinet.DB;
-import org.hamcrest.Matchers;
 import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
-import pro.reznick.flywheel.domain.Entity;
 import pro.reznick.flywheel.hashing.CryptographicHash;
 import pro.reznick.flywheel.hashing.HashingStrategy;
 
@@ -14,8 +12,8 @@ import java.nio.ByteBuffer;
 import java.nio.charset.Charset;
 import java.util.Random;
 
-import static org.hamcrest.Matchers.is;
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.fail;
 
 /**
  * @author alex
@@ -74,51 +72,51 @@ public class KyotoDataDaoTests
         dao.store(testKey, testHash);
         assertArrayEquals(testHash, dao.get(testKey));
 
-        dao.storeEntity(testHash, new Entity(testData, "application/xml"));
-        assertThat(0l, is(dao.getRefCount(testHash)));
-        dao.incrementRefCount(testHash);
-        assertThat(1l, is(dao.getRefCount(testHash)));
-
-        Entity newE = dao.getEntity(testHash);
-
-        assertThat(newE.getMediaType(), is("application/xml"));
-        assertArrayEquals(testData, newE.getData());
+//        dao.storeEntity(testHash, new Entity(testData, "application/xml"));
+//        assertThat(0l, is(dao.getRefCount(testHash)));
+//        dao.incrementRefCount(testHash);
+//        assertThat(1l, is(dao.getRefCount(testHash)));
+//
+//        Entity newE = dao.getEntity(testHash);
+//
+//        assertThat(newE.getMediaType(), is("application/xml"));
+//        assertArrayEquals(testData, newE.getData());
     }
 
-    @Test
-    public void testStoreAndGetLongMediaType()
-    {
-        String t = "test";
-        dao.store(testKey, testHash);
-        assertArrayEquals(testHash, dao.get(testKey));
+//    @Test
+//    public void testStoreAndGetLongMediaType()
+//    {
+//        String t = "test";
+//        dao.store(testKey, testHash);
+//        assertArrayEquals(testHash, dao.get(testKey));
+//
+//        StringBuilder sb = new StringBuilder(230);
+//        for (int i = 0; i < 230; i++)
+//            sb.append('a');
+//
+//
+////        dao.storeEntity(testHash, new Entity(testData, sb.toString()));
+////        assertThat(0l, is(dao.getRefCount(testHash)));
+////
+////        Entity newE = dao.getEntity(testHash);
+////
+////        assertThat(newE.getMediaType(), is(sb.toString()));
+////        assertArrayEquals(testData, newE.getData());
+//    }
 
-        StringBuilder sb = new StringBuilder(230);
-        for (int i = 0; i < 230; i++)
-            sb.append('a');
-
-
-        dao.storeEntity(testHash, new Entity(testData, sb.toString()));
-        assertThat(0l, is(dao.getRefCount(testHash)));
-
-        Entity newE = dao.getEntity(testHash);
-
-        assertThat(newE.getMediaType(), is(sb.toString()));
-        assertArrayEquals(testData, newE.getData());
-    }
-
-    @Test
-    public void testStoreAndDelete()
-    {
-        dao.store(testKey, testHash);
-        dao.storeEntity(testHash, new Entity(testData, "application/xml"));
-        assertThat(0l, is(dao.getRefCount(testHash)));
-
-        dao.deleteEntity(testHash);
-
-        Entity newE = dao.getEntity(testHash);
-
-        assertThat(newE, Matchers.<Object>nullValue());
-    }
+//    @Test
+//    public void testStoreAndDelete()
+//    {
+//        dao.store(testKey, testHash);
+////        dao.storeEntity(testHash, new Entity(testData, "application/xml"));
+//        assertThat(0l, is(dao.getRefCount(testHash)));
+//
+//        dao.deleteEntity(testHash);
+//
+//        Entity newE = dao.getEntity(testHash);
+//
+//        assertThat(newE, Matchers.<Object>nullValue());
+//    }
 
 
 }

@@ -1,6 +1,6 @@
 package pro.reznick.flywheel.dal;
 
-import pro.reznick.flywheel.domain.Entity;
+import javax.transaction.TransactionRequiredException;
 
 /**
  * @author alex
@@ -17,8 +17,14 @@ import pro.reznick.flywheel.domain.Entity;
  */
 public interface DataDao
 {
-    void store(byte[] key, byte[] hash);
+    void store(byte[] key, byte[] data);
+    long storeWithRefCount(byte[] key, byte[] data) throws TransactionRequiredException;
     void delete(byte[] key);
+    long deleteWithRefCount(byte[] key) throws TransactionRequiredException;
+    long incrementRefCount(byte[] key);
+    long decrementRefCount(byte[] key);
+    long getRefCount(byte[] key);
+
     boolean contains(byte[] key);
     byte[] get(byte[] key);
 
@@ -27,13 +33,11 @@ public interface DataDao
     // The ref count management should be implemented in the DAO transparently
     // Entity functions should be implemented in the service
 
-    public void storeEntity(byte[] hash, Entity entity);
-    void deleteEntity(byte[] hash);
-    boolean containsEntity(byte[] hash);
-    long incrementRefCount(byte[] hash);
-    long decrementRefCount(byte[] hash);
-    long getRefCount(byte[] hash);
-    Entity getEntity(byte[] hash);
+//    public void storeEntity(byte[] hash, Entity entity);
+//    void deleteEntity(byte[] hash);
+//    boolean containsEntity(byte[] hash);
+//
+//    Entity getEntity(byte[] hash);
 
     void close();
 }

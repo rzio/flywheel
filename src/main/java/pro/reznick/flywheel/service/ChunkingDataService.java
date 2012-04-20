@@ -12,6 +12,7 @@ import pro.reznick.flywheel.exceptions.OperationFailedException;
 import pro.reznick.flywheel.hashing.HashingStrategy;
 import pro.reznick.flywheel.service.utils.RabinChunker;
 
+import javax.transaction.TransactionRequiredException;
 import java.nio.BufferUnderflowException;
 import java.nio.ByteBuffer;
 import java.nio.charset.Charset;
@@ -76,8 +77,16 @@ public class ChunkingDataService implements DataService
                 byte[] ch = new byte[chunk.limit() - chunk.position()];
                 totalBytesInChunks += ch.length;
                 chunk.get(ch);
-                dao.store(hash, ch);
-                dao.incrementRefCount(hash);
+
+                try
+                {
+                    dao.storeWithRefCount(hash, ch);
+                }
+                catch (TransactionRequiredException e)
+                {
+                    throw new OperationFailedException("Creation of new collection failed", e);
+                }
+
             }
             else
             {
@@ -123,7 +132,14 @@ public class ChunkingDataService implements DataService
         DecodedEntity e = decodeEntity(dao.get(k));
         if (e == null)
             return OperationStatus.FAILED;
-        deleteChunks(e.hashes);
+        try
+        {
+            deleteChunks(e.hashes);
+        }
+        catch (TransactionRequiredException e1)
+        {
+            throw new OperationFailedException(e1.getMessage(),e1);
+        }
         dao.delete(k);
         return OperationStatus.OK;
     }
@@ -173,7 +189,14 @@ public class ChunkingDataService implements DataService
         // the lists are different - replace the list and decrement refcount for each hash
         if (!areEqual)
         {
-            deleteChunks(existingHashes);
+            try
+            {
+                deleteChunks(existingHashes);
+            }
+            catch (TransactionRequiredException e1)
+            {
+                throw new OperationFailedException(e1.getMessage(),e1);
+            }
             dao.store(key.getStorageKey().array(), encodeEntity(entity, hashes, totalBytes));
         }
         return OperationStatus.REPLACED_ENTITY;
@@ -238,14 +261,11 @@ public class ChunkingDataService implements DataService
         return bb.array();
     }
 
-    private void deleteChunks(List<byte[]> hashes)
+    private void deleteChunks(List<byte[]> hashes) throws TransactionRequiredException
     {
         for (byte[] hash : hashes)
         {
-            // TODO race condition
-            long newRefCount = dao.decrementRefCount(hash);
-            if (newRefCount == 0)
-                dao.delete(hash);
+            dao.deleteWithRefCount(hash);
         }
     }
 
